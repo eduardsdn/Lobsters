@@ -192,3 +192,108 @@ body {
     font-size: 16px;
     line-height: 22px;
 }
+
+/* ----- DESCRIPTION ----- */
+
+.description {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ffe2e073;
+    margin-bottom: 140px;
+}
+
+.description-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.description-title-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.description-title-holder h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.description-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.description-card {
+    padding: 20px 20px 24px 20px;
+    width: 285px;
+    background-color: #FFFFFF;
+}
+
+.description-card img {
+    margin-bottom: 46px;
+}
+
+.description-card p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* ----- BRANDS ----- */
+
+.brands {
+
+}
+
+.brands-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.brands-title-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.brands-title-holder h1 {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.brands-cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 20px;
+    margin-bottom: 32px;
+}
+
+.brand__card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+}
+
+.brands-link-holder {
+    display: flex;
+    align-self: center;
+}
+
+.brands-link-holder p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #676767;
+}
+
+.brands-link-holder a {
+    color: #676767;
+}
