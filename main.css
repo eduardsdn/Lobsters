@@ -243,7 +243,7 @@ body {
 /* ----- BRANDS ----- */
 
 .brands {
-
+    margin-bottom: 140px;
 }
 
 .brands-wrapper {
@@ -296,4 +296,51 @@ body {
 
 .brands-link-holder a {
     color: #676767;
+}
+
+/* ----- PLATFORMS ----- */
+
+.platforms {
+    padding-top: 60px;
+    background-color: rgba(216, 230, 255, 0.4);
+}
+
+.platforms-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platforms-title-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.platforms-title-holder h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.platforms-icons {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    row-gap: 44px;
+    column-gap: 273px;
+}
+
+.platforms-icon {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.platforms-icon img {
+
+}
+
+.platforms-icon p {
+
 }
