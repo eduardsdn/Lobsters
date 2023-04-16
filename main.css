@@ -484,3 +484,163 @@ iframe {
     font-size: 20px;
     color: #E30029;
 }
+
+/* ----- REVIEWS ----- */
+
+.reviews {
+    background-color: #ffe2e073;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    margin-bottom: 140px;
+}
+
+.reviews-top-wrapper {
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews-top-wrapper h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 230px;
+}
+
+.reviews-slider-buttons {
+
+}
+
+.reviews-slider-button {
+
+}
+
+.reviews-cards-slider {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+
+.reviews-card {
+    flex-shrink: 0;
+    display: flex;
+    gap: 24px;
+    width: 590px;
+    padding: 24px 24px 24px 24px;
+    background-color: #FFFFFF;
+}
+
+/* .reviews-card-image-holder {
+    display: flex;
+    flex-direction: column;
+} */
+
+.reviews-card img {
+    width: 68px;
+    height: 68px;
+}
+
+.reviews-card-top-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.reviews-card-name {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.reviews-card-company {
+    font-weight: 600;
+    font-size: 14px;
+    color: #676767;
+}
+
+.reviews-card-bottom-content {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* ----- BOTTOM HERO ----- */
+
+#bottom-hero-content {
+    margin-top: 100px;
+    max-width: 597px;
+}
+
+#bottom-hero-content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+#bottom-hero-content p {
+    max-width: 416px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#hero-highlighted {
+    color: #E30029;
+    font-weight: 700;
+}
+
+/* ----- FOOTER ----- */
+
+.footer {
+    background-color: #191919;
+    padding-top: 36px;
+    padding-bottom: 28px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+   display: flex;
+   flex-direction: column;
+   gap: 46px;
+}
+
+.footer-columns-holder {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-media-icons {
+
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.footer-column-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-column-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+}

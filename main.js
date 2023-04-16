@@ -16,4 +16,24 @@ function otherCasesSlider() {
 
 }
 
+function reviewsSlider() {
+    const reviewsSlider = document.querySelector(".reviews-cards-slider")
+    const reviewsNextBtn = document.querySelector("#reviews-next-button")
+    const reviewsPrevBtn = document.querySelector('#reviews-prev-button')
+
+    const reviewsFirstCard = document.querySelectorAll(".reviews-card ")[0]
+    let reviewsFirstCardWidth = reviewsFirstCard.clientWidth
+
+    reviewsNextBtn.addEventListener('click', function(){
+        reviewsSlider.scrollLeft -=  reviewsFirstCardWidth
+    })
+
+    reviewsPrevBtn.addEventListener('click', function(){
+        reviewsSlider.scrollLeft +=  reviewsFirstCardWidth
+    })
+}
+
+
+
 otherCasesSlider()
+reviewsSlider()
