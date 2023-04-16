@@ -21,6 +21,7 @@
 
 body {
     font-family: "Montserrat";
+    background-image: url(/assets/images/background_img.png);
 }
 
 ._container {
@@ -414,6 +415,7 @@ iframe {
 .other-cases {
     /* display: flex;
     flex-direction: column; */
+    margin-bottom: 140px;
 }
 
 .other-cases-top-wrapper {
@@ -437,10 +439,16 @@ iframe {
 }
 
 .other-cases-cards-slider {
-
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
 }
 
 .other-cases-card {
+    flex-shrink: 0;
     width: 488px;
     background-color: rgba(216, 230, 255, 0.4);
     padding-top: 24px;
