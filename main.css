@@ -410,3 +410,69 @@ iframe {
 }
 
 /* ----- OTHER CASES ----- */
+
+.other-cases {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.other-cases-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-cases-top-wrapper h1 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.other-cases-slider-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.other-cases-slider-button {
+
+}
+
+.other-cases-cards-slider {
+
+}
+
+.other-cases-card {
+    width: 488px;
+    background-color: rgba(216, 230, 255, 0.4);
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+.other-cases-card-title p{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.other-cases-card-platforms {
+    margin-bottom: 20px;
+}
+
+.other-cases-card-activity p {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-gray-title {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #676767;
+}
+
+#other-cases-card-highligthed {
+    font-weight: 600;
+    font-size: 20px;
+    color: #E30029;
+}
