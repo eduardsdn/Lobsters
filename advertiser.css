@@ -39,11 +39,18 @@ body {
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
     margin-bottom: 123px;
 }
-
+.lobsters-logo-link img {
+    min-width: 168px;
+    /* height: 26px; */
+}
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-menu-button {
+    display: none;
 }
 
 .nav {
@@ -418,10 +425,14 @@ body {
     justify-content: center;
     margin-bottom: 55px;
 }
-.review-title {
+.review-title-long {
     font-weight: 600;
     font-size: 40px;
     line-height: 46px;
+}
+
+.review-title-short {
+    display: none;
 }
 
 .review-card-holder {
@@ -566,7 +577,11 @@ body {
     display: none;
 }
 
-.descr-br-1 {
+.descr-br1 {
+    display: none;
+}
+
+.descr-br2 {
     display: none;
 }
 
@@ -575,6 +590,10 @@ body {
 }
 
 .hero-btm-br1 {
+    display: none;
+}
+
+.hero-btm-br2 {
     display: none;
 }
 
