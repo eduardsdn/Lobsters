@@ -88,6 +88,29 @@
         display: none;
     }
 
+    /* PLATFORMS */
+
+    .pltfrms-br1 {
+        display: block;
+    }
+
+    .platforms-title-holder h1 {
+        text-align: center;
+    }
+
+    #arrow-red {
+        display: none;
+    }
+
+    .platforms-icons {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 175px;
+    }
+
+
+
+
     /* HERO BOTTOM */
     #bottom-hero-content{
         max-width: 1000px;
