@@ -208,7 +208,7 @@ body {
 
 .steps-card {
     padding: 20px 20px 24px 20px;
-    width: 387px;
+    max-width: 387px;
     background-color: rgba(216, 230, 255, 0.4);
 }
 
@@ -289,7 +289,7 @@ body {
 .description-card {
     padding: 20px 20px 24px 20px;
     padding-bottom: 35px;
-    width: 285px;
+    max-width: 285px;
     background-color: #FFFFFF;
     position: relative;
 }
@@ -369,8 +369,8 @@ body {
 
 #arrow-red {
     position: absolute;
-    right: -190px;
-    bottom:-30px;
+    /* right: -190px;
+    bottom:-30px; */
 }
 
 .platforms-icons {
@@ -560,5 +560,20 @@ body {
     font-size: 12px;
 }
 
+/* line breaks for media queries */
 
+.hero-br-1 {
+    display: none;
+}
 
+.descr-br-1 {
+    display: none;
+}
+
+.rev-br-1 {
+    display: none;
+}
+
+.hero-btm-br1 {
+    display: none;
+}

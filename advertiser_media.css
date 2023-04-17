@@ -1,0 +1,113 @@
+@media (max-width:1025px){
+    ._container {
+        max-width: 900px;
+    }
+
+    /* HEADER */
+    .header-nav {
+        gap: 50px;
+    }
+
+    /* HERO */
+    .hero-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-content{
+        max-width: 100%;
+    }
+
+    .hero-br-1 {
+        display: block;
+    }
+
+    .hero-content p {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        align-self: flex-end;
+    }
+
+    /* STEPS */
+    
+
+    /* DESCRIPTION */
+
+    #arrow-bottom1, #arrow-bottom2, #arrow-top {
+        display: none;
+    }
+
+    .descr-br-desktop {
+        display: none;
+    }
+
+    .descr-br-1{
+        display: block;
+    }
+
+    .description-cards {
+        /* flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 20px;
+        gap: 20px; */
+
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        align-items: start;
+
+    }
+
+    .description-wrapper {
+        align-items: center;
+    }
+    .description-card {
+        max-width: 350px;
+        max-height: 154px;
+    }
+
+    /* REVIEW */
+
+    .review-title {
+        text-align: center;
+    }
+
+    .rev-br-1 {
+        display: block;
+    }
+
+    #grass-left {
+        display: none;
+
+    }
+
+    #arrow-yellow {
+        display: none;
+    }
+
+    /* HERO BOTTOM */
+    #bottom-hero-content{
+        max-width: 1000px;
+    }
+
+    #bottom-hero-content h1{
+        font-size: 40px;
+    }
+
+    #bottom-hero-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-btm-br1 {
+        display: block;
+    }
+
+    /* FOOTER */
+
+    #footer-info {
+        display: none;
+    }
+}
