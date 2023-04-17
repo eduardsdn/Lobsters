@@ -267,7 +267,7 @@ body {
 
 .description-card {
     padding: 20px 20px 24px 20px;
-    width: 285px;
+    max-width: 285px;
     background-color: #FFFFFF;
 }
 
@@ -775,4 +775,10 @@ iframe {
 #arrow-black2 {
     margin-top: 10px;
     margin-left: 50px;
+}
+
+/* line breaks for media queries */
+
+.hero-br1 {
+    display: none;
 }

@@ -1,0 +1,146 @@
+@media (max-width:1025px) {
+    ._container {
+        max-width: 800px;
+    }
+
+    /* HEADER */
+    .header-nav {
+        gap: 50px;
+    }
+
+    .lobsters-logo-link img {
+        min-width: 90px;
+    }
+
+    /* HERO */
+    .hero-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-content{
+        /* max-width: 100%; */
+    }
+
+    .hero-content h1{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .hero-content p {
+        max-width: 574px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .hero-br-desktop {
+        display: none;
+    }
+
+    .hero-br-1 {
+        display: block;
+    }
+
+    .hero-image {
+        align-self: flex-end;
+    }
+
+    /* STEPS */
+
+    #grass-right {
+        display: none;
+    }
+
+    /* DESCRIPTION */
+
+    .description-wrapper {
+        align-items: center;
+
+    }
+
+    #arrow-black-one {
+        display: none;
+    }
+    .description-cards {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        align-items: start;
+    }
+
+    .description-card {
+        max-width: 350px;
+    }
+
+
+
+    /* BRANDS */
+    .brands {
+        margin-bottom: 100px;
+    }
+    
+    .brands-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /* PLATFORMS */
+
+    .platforms-title-holder h1 {
+        text-align: center;
+    }
+
+    #arrow-red {
+        display: none;
+    }
+
+    .platforms-icons {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 175px;
+    }
+
+    /* CASE */
+
+    #loop {
+        display: none;
+    }
+
+    .case-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .case-br-desktop {
+        display: none;
+    }
+
+    .case-content {
+        max-width: 636px;
+        margin-bottom: 40px;
+    }
+
+    .case-content-title {
+        max-width: 636px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .case-content-text {
+        max-width: 412px;
+    }
+
+    .video-holder {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* OTHER CASES */
+
+    .other-cases-card {
+        width: 328px;
+    }
+}
