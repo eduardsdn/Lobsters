@@ -104,6 +104,7 @@ body {
 /* ----- HERO ----- */
 .hero {
     margin-bottom: 154px;
+    position: relative;
 }
 
 .hero-wrapper {
@@ -112,7 +113,14 @@ body {
 }
 
 .hero-content {
+    position: relative;
     max-width: 692px;
+}
+
+#squigly-yellow {
+    position: absolute;
+    top: -40px;
+    left: -40px;
 }
 
 .hero-content h1 {
@@ -144,9 +152,21 @@ body {
     border-radius: 100px;
 }
 
+.hero-image {
+    min-width: 420px;
+    position: relative;
+}
+
+#wave1 {
+    position: absolute;
+    left: 340px;
+    bottom: 370px;
+}
+
 .hero-image img {
-    width: 400px;
-    border: solid;
+    position: relative;
+    bottom: 50px;
+    /* width: 400px; */
 }
 
 /* ----- STEPS ----- */
@@ -158,6 +178,13 @@ body {
 .steps-row {
     display: flex;
     column-gap: 20px;
+    position: relative;
+}
+
+#grass-right {
+    position: absolute;
+    right: -50px;
+    top: -50px;
 }
 
 .steps-card {
@@ -201,6 +228,13 @@ body {
     padding-bottom: 60px;
     background-color: #ffe2e073;
     margin-bottom: 140px;
+    position: relative;
+}
+
+#decor-purple {
+    position: absolute;
+    top: -90px;
+    right: 0px;
 }
 
 .description-wrapper {
@@ -208,11 +242,17 @@ body {
     flex-direction: column;
 }
 
-
 .description-title-holder {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    position: relative;
+}
+
+#arrow-black-one {
+    position: absolute;
+    top: 20px;
+    right: 140px;
 }
 
 .description-title-holder h1{
@@ -245,6 +285,12 @@ body {
 
 .brands {
     margin-bottom: 140px;
+    position: relative;
+}
+
+#decor-red {
+    position: absolute;
+    top: -100px;
 }
 
 .brands-wrapper {
@@ -262,6 +308,15 @@ body {
     font-weight: 600;
     font-size: 40px;
     text-align: center;
+}
+
+#brands-title-holder-underlined {
+    position: relative;
+}
+
+#underline-straight {
+    position: absolute;
+    top:45px;
 }
 
 .brands-cards {
@@ -306,6 +361,13 @@ body {
     padding-top: 60px;
     margin-bottom: 161px;
     background-color: rgba(216, 230, 255, 0.4);
+    position: relative;
+}
+
+#decor_yellow-white {
+    position: absolute;
+    right:0px;
+    top: -70px;
 }
 
 .platforms-wrapper {
@@ -318,6 +380,13 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    position: relative;
+}
+
+#arrow_red {
+    position: absolute;
+    left:-170px;
+    bottom:20px;
 }
 
 .platforms-title-holder h1 {
@@ -353,6 +422,13 @@ body {
 /* ----- CASE ----- */
 .case {
     margin-bottom: 155px;
+    position: relative;
+}
+
+#decor-blue {
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
 }
 
 .case-wrapper {
@@ -362,6 +438,13 @@ body {
 
 .case-content {
     max-width: 412px;
+    position: relative;
+}
+
+#grass-left {
+    position: absolute;
+    top: -40px;
+    left: -50px;
 }
 
 .case-content-title {
@@ -404,6 +487,16 @@ body {
 .case-content-stats-highlight {
     color: #E30029;
     font-weight: 600;
+}
+
+.video-holder {
+    position: relative;
+}
+
+#loop {
+    position: absolute;
+    top: -50px;
+    right: -30px;
 }
 
 iframe {
@@ -492,6 +585,12 @@ iframe {
     padding-top: 56px;
     padding-bottom: 40px;
     margin-bottom: 140px;
+    position: relative;
+}
+
+#decor-pink {
+    position: absolute;
+    top: -60px;
 }
 
 .reviews-top-wrapper {
@@ -499,6 +598,16 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#reviews-title-underlined {
+    position: relative;
+}
+
+#underline-squigly {
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
 }
 
 .reviews-top-wrapper h1 {
@@ -592,6 +701,23 @@ iframe {
     font-weight: 700;
 }
 
+.lobster2 {
+    position: relative;
+    top: 25px;
+}
+
+#wave2 {
+    position: absolute;
+    left: 340px;
+    bottom: 290px;
+}
+
+#decor-yellow-black {
+    position: absolute;
+    right: 0px;
+    bottom: -210px;
+}
+
 /* ----- FOOTER ----- */
 
 .footer {
@@ -617,7 +743,8 @@ iframe {
 }
 
 .footer-media-icons {
-
+    display: flex;
+    gap: 10px;
 }
 
 .footer-column {
@@ -643,4 +770,9 @@ iframe {
     text-decoration: none;
     font-weight: 500;
     font-size: 12px;
+}
+
+#arrow-black2 {
+    margin-top: 10px;
+    margin-left: 50px;
 }
