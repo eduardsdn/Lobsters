@@ -133,6 +133,10 @@
     #footer-info {
         display: none;
     }
+
+    .footer-nav {
+        gap: 24px;
+    }
 }
 
 

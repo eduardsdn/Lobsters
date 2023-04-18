@@ -1,18 +1,48 @@
 @media (max-width:1025px) {
     ._container {
-        max-width: 800px;
+        max-width: 720px;
+        padding: 0 16px;
     }
 
     /* HEADER */
+    .nav {
+        gap: 20px;
+    }
     .header-nav {
         gap: 50px;
     }
 
+    .header-buttons {
+        gap: 5px;
+    }
+
+    .header-button {
+        padding: 6px 16px 6px 16px;
+    }
+
+    .nav-list {
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    /* .nav-list li a{
+        min-width: 88px;
+    } */
+
     .lobsters-logo-link img {
-        min-width: 90px;
+        min-width: 130px;
+    }
+
+    .header-button {
+        font-size: 14px;
     }
 
     /* HERO */
+
+    img#squigly-yellow {
+        max-width: 100px;
+    }
+
     .hero-wrapper {
         flex-direction: column;
     }
@@ -52,11 +82,31 @@
         display: none;
     }
 
+    .steps-card {
+        min-width: 226px;
+        max-width: 387px;
+    }
+
+    .steps-card-content h1 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .steps-card-content p {
+        font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    }
+
     /* DESCRIPTION */
+    #decor-purple {
+        max-width: 100px;
+        top: -60px;
+    }
 
     .description-wrapper {
         align-items: center;
-
     }
 
     #arrow-black-one {
@@ -77,8 +127,23 @@
 
 
     /* BRANDS */
+    #decor-red {
+        max-width: 80px;
+        top: -120px;
+    }
+    #underline-straight {
+        max-width: 200px;
+        top:32px;
+    }
+
     .brands {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
+    }
+
+    .brands-title-holder h1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
     }
     
     .brands-cards {
@@ -89,20 +154,27 @@
     /* PLATFORMS */
 
     .platforms-title-holder h1 {
+        font-size: 36px;
         text-align: center;
     }
+    
 
-    #arrow-red {
+    #arrow_red {
         display: none;
     }
+
+    
 
     .platforms-icons {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        column-gap: 175px;
+        column-gap: 125px;
     }
 
     /* CASE */
+    #decor-blue {
+        width: 80px;
+    }
 
     #loop {
         display: none;
@@ -142,5 +214,35 @@
 
     .other-cases-card {
         width: 328px;
+    }
+
+    /* REVIEWS */
+    .reviews {
+        margin-bottom: 0px;
+    }
+    .reviews-top-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .reviews-top-wrapper h1 {
+        margin-left: 0px;
+    }
+
+    .reviews-slider-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    /* FOOTER */
+
+    #footer-info {
+        display: none;
+    }
+
+    .footer-nav {
+        gap: 24px;
     }
 }
