@@ -236,6 +236,30 @@
         justify-content: end;
     }
 
+    .reviews-card {
+        max-width: 328px;
+        /* max-height: 145px; */
+    }
+
+    .reviews-card-name {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .reviews-card-company {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: end;
+    }
+    
+    .reviews-card-bottom-content {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
     /* FOOTER */
 
     #footer-info {
