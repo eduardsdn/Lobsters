@@ -5,6 +5,23 @@
     }
 
     /* HEADER */
+    .hero-content h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .hero-content p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .hero-button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
     .nav {
         gap: 20px;
     }
@@ -273,7 +290,7 @@
 
 
 
-@media (max-width:480px) {
+@media (max-width:760px) {
     /* HEADER */
 
     #wave1 {
@@ -355,6 +372,10 @@
         font-size: 24px;
     }
 
+    .steps-card-number {
+        margin-bottom: 32px;
+    }
+
     /* DESCRIPTION */
     .description {
         margin-bottom: 60px;
@@ -378,13 +399,36 @@
         width: auto;
     }
 
+    .description-card p {
+        font-size: 14px;
+    }
+
+    .description-card img {
+        margin-bottom: 32px;
+    }
+
     /* BRANDS */
 
     .brands-cards {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
     }
 
+    .brands-title-holder h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    /* PLATFORMS */
+    .platforms {
+        margin-bottom: 60px;
+    }
+
+    .platforms-icons {
+        column-gap: 8px;
+    }
     /* CASE */
     #grass-left {
         display: none;
@@ -394,15 +438,72 @@
         display: none;
     }
 
+    .case-content-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .case-content-text h1 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .case-content-text{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
     /* OTHER CASES */
+    .other-cases{
+        margin-bottom: 60px;
+    }
 
     .other-cases-slider-buttons {
         display: none;
     }
 
+    .other-cases-top-wrapper h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
     /* REVIEWS */
+    .reviews-top-wrapper h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
     .reviews-slider-buttons {
         display: none;
+    }
+
+    .reviews-card{
+        padding: 12px;
+        height: auto;
+    }
+    
+    .reviews-card-top-text {
+        flex-direction: column;
+        
+    }
+
+    /* .reviews-card img {
+        width: 32px;
+        height: 32px;
+    } */
+
+    .reviews-card-company {
+        text-align:inherit;
+        gap: 4px;
+    }
+    
+    .reviews-card-bottom-content {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
     }
 
     /* HERO BOTTOM */
