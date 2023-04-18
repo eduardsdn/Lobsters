@@ -31,6 +31,10 @@ body {
 }
 
 /* ----- HEADER ----- */
+
+.header-menu-button {
+    display: none;
+}
 .header {
     padding-top: 23px;
     padding-bottom: 16px;
