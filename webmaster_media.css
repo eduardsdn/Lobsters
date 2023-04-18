@@ -1,4 +1,4 @@
-@media (max-width:1025px) {
+@media only screen and (max-width:1025px) {
     ._container {
         max-width: 720px;
         padding: 0 16px;
@@ -290,7 +290,7 @@
 
 
 
-@media (max-width:760px) {
+@media only screen and (max-width:760px) {
     /* HEADER */
 
     #wave1 {
