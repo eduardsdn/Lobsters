@@ -17,6 +17,10 @@
         max-width: 100%;
     }
 
+    .hero-br-desktop {
+        display: none;
+    }
+
     .hero-br-1 {
         display: block;
     }

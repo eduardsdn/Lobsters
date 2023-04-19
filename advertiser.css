@@ -34,10 +34,10 @@ body {
 /* ----- HEADER ----- */
 .header {
     padding-top: 23px;
-    padding-bottom: 16px;
+    padding-bottom: 22px;
     border-bottom: inherit;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
-    margin-bottom: 123px;
+    margin-bottom: 140px;
 }
 .lobsters-logo-link img {
     min-width: 168px;
@@ -115,7 +115,7 @@ body {
 
 /* ----- HERO ----- */
 .hero {
-    margin-bottom: 154px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -136,7 +136,6 @@ body {
 #bottom-hero-content h1{
     font-weight: 600;
     font-size: 32px;
-    line-height: 36px
 }
 
 #squigly-yellow {
@@ -148,7 +147,7 @@ body {
 .hero-content h1 {
   font-weight: 700;
   font-size: 3.125em;
-  line-height: 52px;
+  line-height: 46px;
   margin-bottom: 32px;
 }
 
@@ -238,7 +237,7 @@ body {
 .steps-card-content h1{
     max-width: 350px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 23px;
     margin-bottom: 12px;
 }
 
@@ -252,7 +251,7 @@ body {
 
 .description {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 110px;
     background-color: #ffe2e073;
     margin-bottom: 140px;
     position: relative;
@@ -286,6 +285,7 @@ body {
     text-align: center;
     font-weight: 600;
     font-size: 40px;
+    margin-bottom: 15px;
 }
 
 .description-cards {
@@ -303,7 +303,7 @@ body {
 
 #arrow-bottom1 {
     position: absolute;
-    bottom:-90px;
+    bottom:-100px;
     right:-50px;
 }
 
@@ -315,13 +315,13 @@ body {
 
 #arrow-bottom2 {
     position: absolute;
-    bottom:-90px;
+    bottom:-100px;
     right:-50px;
 }
 
 
 .description-card img {
-    margin-bottom: 46px;
+    margin-bottom: 56px;
 }
 
 .description-card p {
@@ -355,16 +355,17 @@ body {
 }
 
 .platforms-title-holder {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-bottom: 65px;
     position: relative;
 }
 
-#arrow_red {
+#arrow-red {
     position: absolute;
-    left:-170px;
-    bottom:20px;
+    right: -170px;
+    bottom:-51px; 
+    
 }
 
 .platforms-title-holder h1 {
@@ -374,11 +375,6 @@ body {
     position: relative;
 }
 
-#arrow-red {
-    position: absolute;
-    /* right: -190px;
-    bottom:-30px; */
-}
 
 .platforms-icons {
     /* padding-bottom: 66px; */
@@ -412,7 +408,7 @@ body {
     background-color: rgba(216, 230, 255, 0.4);
     padding-top: 45px;
     padding-bottom: 64px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 #decor-blue {
@@ -495,6 +491,10 @@ body {
     margin-top: 120px;
 }
 
+#bottom-hero-content h1 {
+    line-height: 36px;
+}
+
 .lobster2 {
     position: relative;
     top: 25px;
@@ -514,7 +514,7 @@ body {
 #decor-yellow-black {
     position: absolute;
     right: 0px;
-    bottom: -210px;
+    bottom: -130px;
 }
 
 /* ----- FOOTER ----- */

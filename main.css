@@ -40,7 +40,7 @@ body {
     padding-bottom: 16px;
     border-bottom: inherit;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
-    margin-bottom: 123px;
+    margin-bottom: 143px;
 }
 
 .header-nav {
@@ -107,7 +107,7 @@ body {
 
 /* ----- HERO ----- */
 .hero {
-    margin-bottom: 154px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -588,7 +588,7 @@ iframe {
     background-color: #ffe2e073;
     padding-top: 56px;
     padding-bottom: 40px;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
     position: relative;
 }
 
