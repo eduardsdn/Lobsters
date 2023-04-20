@@ -5,6 +5,9 @@
     }
 
     /* HEADER */
+    .header {
+        margin-bottom: 100px;
+    }
     .hero-content h1 {
         font-weight: 700;
         font-size: 24px;
@@ -24,6 +27,10 @@
     }
     .nav {
         gap: 20px;
+    }
+
+    #first-link-tablet {
+        min-width: 88px;
     }
     .header-nav {
         gap: 50px;
@@ -46,6 +53,12 @@
         min-width: 88px;
     } */
 
+    #squigly-yellow {
+        max-width: 100px;
+        top: -30px;
+        left: -25px;
+    }
+
     .lobsters-logo-link img {
         min-width: 130px;
     }
@@ -55,10 +68,10 @@
     }
 
     /* HERO */
-
-    img#squigly-yellow {
-        max-width: 100px;
+    .hero {
+        margin-bottom: 15px;
     }
+   
 
     .hero-wrapper {
         flex-direction: column;
@@ -89,11 +102,25 @@
         display: block;
     }
 
+    .lobster1 {
+        max-width: 288px;
+        left: 70px;
+    }
+
+    #wave1 {
+        max-width: 40px;
+        left: 310px;
+        top: -40px;
+    }
+
     .hero-image {
         align-self: flex-end;
     }
 
     /* STEPS */
+    .steps {
+        margin-bottom: 100px;
+    }
 
     #grass-right {
         display: none;
@@ -117,9 +144,25 @@
     }
 
     /* DESCRIPTION */
+
+    .description {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 100px;
+        /* padding-bottom: 100px; */
+    }
+
+    .description-title-holder {
+        margin-bottom: 30px;
+    }
+
+    .description-title-holder h1 {
+        font-size: 32px;
+    }
     #decor-purple {
         max-width: 100px;
         top: -60px;
+        right: -20px;
     }
 
     .description-wrapper {
@@ -127,7 +170,9 @@
     }
 
     #arrow-black-one {
-        display: none;
+        max-width: 90px;
+        right: -120px;
+        top: 10px;
     }
     .description-cards {
         display: grid;
@@ -136,9 +181,20 @@
         column-gap: 20px;
         align-items: start;
     }
+    
+    .description-card img {
+        margin-bottom: 30px;
+
+    }
+
+    .description-card p {
+        font-size: 14px;
+    }
 
     .description-card {
+        padding: 15px 15px 20px 15px;
         max-width: 350px;
+        min-height: 159px;
     }
 
 
@@ -146,7 +202,8 @@
     /* BRANDS */
     #decor-red {
         max-width: 80px;
-        top: -120px;
+        top: -70px;
+        left: -20px
     }
     #underline-straight {
         max-width: 200px;
@@ -168,27 +225,45 @@
         grid-template-rows: 1fr 1fr;
     }
 
+    .brand__card img {
+        max-width: 160px;
+    }
+
     /* PLATFORMS */
+    .platforms {
+        margin-bottom: 100px;
+    }
 
     .platforms-title-holder h1 {
-        font-size: 36px;
+        font-size: 32px;
         text-align: center;
     }
     
 
     #arrow_red {
-        display: none;
+        max-width: 100px;
+        top: 40px;
+        left: -130px;
     }
 
-    
+    #decor_yellow-white {
+        max-width: 80px;
+    }
 
     .platforms-icons {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         column-gap: 125px;
+        margin-left: 60px;
     }
 
     /* CASE */
+
+    .case {
+        /* margin-left: 20px; */
+        margin-bottom: 80px;
+    }
+
     #decor-blue {
         width: 80px;
     }
@@ -277,7 +352,44 @@
         line-height: 17px;
     }
 
+    /* HERO BOTTOM */
+
+    .btm-hero-title-br-desktop {
+        display: none;
+    }
+
+    .btm-hero-title-br1 {
+        display: block;
+    }
+
+    #bottom-hero {
+        margin-bottom: 100px;
+    }
+
+
+    #bottom-hero-content h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .lobster2 {
+        position: relative;
+        left: 100px;
+        max-width: 288px;
+    }
+    #wave2{
+        max-width: 40px;
+        left: 340px;
+        top: 40px;
+    }
+
+    #decor-yellow-black {
+        bottom: -170px;
+    }
+
+
     /* FOOTER */
+    
 
     #footer-info {
         display: none;
@@ -532,11 +644,6 @@
     #wave2 {
         display: none;
     }
-
-    .lobster2 {
-        max-width: 213px;
-    }
-
 
     /* FOOTER */
 
