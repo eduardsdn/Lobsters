@@ -405,8 +405,9 @@
 @media only screen and (max-width:760px) {
     /* HEADER */
 
-    #wave1 {
-        display: none;
+    .header {
+        box-shadow: none;
+        margin-bottom: 60px;
     }
 
     .header-nav-links {
@@ -422,19 +423,34 @@
     }
 
     /* HERO */
-
+    #wave1 {
+        left: 280px;
+        top: 0px;
+    }
+    
     #bottom-hero {
         margin-top: 60px;
     }
 
     #squigly-yellow {
-        display: none;
+        /* display: none; */
+        max-width: 78px;
+        left: 25px;
     }
 
     .hero-image {
+        min-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .hero-image img {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
     }
 
     .lobster1 {
@@ -454,24 +470,34 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 71px;
+        margin-bottom: 42px;
     }
 
     .hero-content h1 {
+        max-width: 343px;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
         text-align: center;
+        margin-bottom: 24px;
     }
 
 
     .hero-content p {
         margin-bottom:24px;
-        /* max-width: 343px; */
+        font-size: 14px;
+        line-height: 20px;
         text-align: center;
     }
 
     /* STEPS */
+    .steps {
+        margin-bottom: 68px;
+    }
+
+    .steps-card {
+        max-width: 343px;
+    }
 
     .steps-row {
         flex-direction: column;
@@ -489,6 +515,10 @@
     }
 
     /* DESCRIPTION */
+
+    #arrow-black-one {
+        display: none;
+    }
     .description {
         margin-bottom: 60px;
     }
@@ -521,6 +551,16 @@
 
     /* BRANDS */
 
+    #underline-straight {
+        width: 150px;
+        right: 55px;
+        top: 25px;
+    }
+
+    #decor-red {
+        display: none;
+    }
+
     .brands-cards {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -533,6 +573,22 @@
         line-height: 28px;
     }
 
+    .brand__card img {
+        max-width: 120px;
+    }
+
+    .brands-link-holder {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .brands-link-holder a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
     /* PLATFORMS */
     .platforms {
         margin-bottom: 60px;
@@ -540,8 +596,33 @@
 
     .platforms-icons {
         column-gap: 8px;
+        margin: auto;
+    }
+
+    .platforms-title-holder h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .platforms-br-desktop {
+        display: none;
+    }
+
+    .platforms-icon {
+        gap:13px;
+    }
+
+    .platforms-icon img {
+        width: 38px;
+    }
+
+    .platforms-icon p {
+        font-size: 11px;
     }
     /* CASE */
+
+    
     #grass-left {
         display: none;
     }
@@ -582,11 +663,99 @@
         line-height: 28px;
     }
 
+    .other-cases-card {
+        max-width: 255px;
+        padding-bottom: 0px;
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+
+    .card-gray-title {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+
+    /* .other-cases-card-activity p {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 13px;
+    } */
+
+    /* .other-cases-card-activity p {
+        font-weight: 600;
+        font-size: 12px;
+    } */
+
+    .cases-card-stats {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    #other-cases-card-highligthed {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .other-cases-card-title, .other-cases-card-activity, .other-cases-card-revenue {
+        margin-bottom: 16px;
+    }
+
+    .other-cases-card-title-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .other-cases-card-title  {
+        font-weight: 500;
+        font-size: 12 px;
+        line-height: 17px;
+    }
+
+    .other-cases-card-platforms img{
+        width: 24px;
+        height: 24px;
+    }
+
     /* REVIEWS */
+    #underline-squigly {
+        bottom: -5px;
+    }
+
+    .reviews {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .reviews-card {
+        max-width: 255px;
+    }
+
+    .reviews-card img {
+        width: 32px;
+        height: 32px;
+    }
+    #decor-pink {
+        max-width: 55px;
+        top: -40px;
+    }
+
+    .reviews-top-wrapper {
+        padding-bottom: 24px;
+    }
+
     .reviews-top-wrapper h1 {
         font-weight: 600;
         font-size: 24px;
         line-height: 29px;
+        text-align: center;
+    }
+    .reviews-br-1 {
+        display: block;
     }
     .reviews-slider-buttons {
         display: none;
@@ -595,6 +764,31 @@
     .reviews-card{
         padding: 12px;
         height: auto;
+        gap: 8px;
+    }
+
+    .reviews-card-top-text {
+        margin-bottom: 8px;
+        gap: 4px;
+    }
+
+    .reviews-card-name {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .reviews-card-company {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 13px;
+        text-decoration: none;
+    }
+
+    .reviews-card-bottom-content {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
     }
     
     .reviews-card-top-text {
@@ -619,6 +813,9 @@
     }
 
     /* HERO BOTTOM */
+    #bottom-hero {
+        margin-top: 0px;
+    }
 
     #bottom-hero-content h1 {
         font-weight: 600;
@@ -645,11 +842,12 @@
         display: none;
     }
 
-    /* FOOTER */
-
     #decor-yellow-black {
-        max-width: 96px;
+        max-width: 70px;
+        bottom: -140px;
     }
+
+    /* FOOTER */
 
     .footer-columns-holder {
         flex-direction: column;

@@ -553,20 +553,22 @@ iframe {
     padding-bottom: 24px;
 }
 
-.other-cases-card-title p{
+/* .other-cases-card-title p{
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 16px;
-}
+} */
 
 .other-cases-card-platforms {
     margin-bottom: 20px;
+    font-weight: 500;
+    /* font-size: 16px; 
 }
 
 .other-cases-card-activity p {
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size: 16px;
+    /* margin-bottom: 20px; */
+    /* font-weight: 500;
+    font-size: 16px; */
 }
 
 .card-gray-title {
@@ -788,5 +790,9 @@ iframe {
 }
 
 .btm-hero-title-br1 {
+    display: none;
+}
+
+.reviews-br-1 {
     display: none;
 }
