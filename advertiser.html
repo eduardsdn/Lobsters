@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="_container">
+        <div class="_container" >
             <div class="header-nav">
 
                 <a href="/" class="lobsters-logo-link"><img src="assets/company_logos/lobsters_logo.svg" alt="lobsters logo"></a>
@@ -20,7 +20,7 @@
 
                 <ul class="header-nav-links">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="index.html">Веб-мастер</a></li>
+                        <li class="nav-item" id="first-link-tablet"><a href="index.html" >Веб-мастер</a></li>
                         <li class="nav-item"><a href="/">Рекламодатель</a></li>
                         <li class="nav-item"><a href="/">FAQ</a></li>
                     </ul>
@@ -33,7 +33,7 @@
     </header>
 
     <section class="hero">
-        <div class="_container">
+        <div class="_container" id="advertiser-tablet-hero-container">
             <div class="hero-wrapper">
 
                 <div class="hero-content">
@@ -192,7 +192,7 @@
     </section>
 
     <section class="hero" id="bottom-hero">
-        <div class="_container">
+        <div class="_container" id="advertiser-tablet-hero-container">
             <div class="hero-wrapper" id="bottom-hero-wrapper">
 
                 <div class="hero-content" id="bottom-hero-content">
@@ -219,8 +219,8 @@
                     <img src="assets/company_logos/lobsters_logo_white.svg" alt="lobsters logo">
 
                     <div class="footer-media-icons">
-                        <img src="assets/icons_media/mail_footer.svg" alt="email">
-                        <img src="assets/icons_media/telegram_footer.svg" alt="telegram">
+                        <a href="mailto:account@lobsters.pro"><img src="assets/icons_media/mail_footer.svg" alt="email"></a>
+                        <a href="https://t.me/lobsters"><img src="assets/icons_media/telegram_footer.svg" alt="telegram"></a>
                     </div>
                 </nav>
 
@@ -230,8 +230,8 @@
                         <h3 class="footer-column-title">Меню</h3>
 
                         <div class="footer-column-links">
-                            <a class="footer-column-link" href="/">Вебмастер</a>
-                            <a class="footer-column-link" href="/">Рекламодатель</a>
+                            <a class="footer-column-link" href="index.html">Вебмастер</a>
+                            <a class="footer-column-link" href="advertiser.html">Рекламодатель</a>
                         </div>
 
                     </div>

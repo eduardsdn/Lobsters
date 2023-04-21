@@ -1,20 +1,80 @@
 @media only screen and (max-width:1025px){
     ._container {
         max-width: 800px;
+        padding: 0 16px;
     }
 
+
     /* HEADER */
+
+    .header {
+        margin-bottom: 100px;
+    }
+
+    .lobsters-logo-link img {
+        min-width: 130px;
+    }
+
     .header-nav {
         gap: 50px;
     }
 
+    #first-link-tablet {
+        min-width: 88px;
+    }
+
+    .nav-item a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
     /* HERO */
+    #advertiser-tablet-hero-container {
+        max-width: 660px;
+    }
+
+    .hero {
+        margin-bottom: 15px;
+    }
+
+    #squigly-yellow {
+        max-width: 100px;
+        top: -30px;
+        left: -30px;
+    }
+
     .hero-wrapper {
         flex-direction: column;
     }
 
     .hero-content{
-        max-width: 100%;
+        max-width: 620px;
+    }
+
+    .lobster1 {
+        max-width: 288px;
+        left: 70px;
+    }
+
+    #wave1 {
+        max-width: 40px;
+        left: 310px;
+        top: -40px;
+    }
+
+    .hero-content h1{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .hero-content p {
+        max-width: 574px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 24px;
     }
 
     .hero-br-desktop {
@@ -25,18 +85,78 @@
         display: block;
     }
 
-    .hero-content p {
+    /* .hero-content p {
         max-width: 100%;
-    }
+    } */
 
     .hero-image {
         align-self: flex-end;
     }
 
     /* STEPS */
+    .steps {
+        margin-bottom: 80px;
+    }
+
+    #grass-right {
+        display: none;
+    }
+
+    .steps-card {
+        max-width: 226px;
+        padding: 16px;
+    }
+
+
+    .steps-card-number {
+        margin-bottom: 37px;
+    }
+
+    .steps-card-content h1 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .steps-card-content p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
     
 
     /* DESCRIPTION */
+    .description {
+        padding-bottom: 12px;
+        margin-bottom: 89px;
+    }
+
+    #decor-purple {
+        display: none;
+    }
+
+    .description-card {
+        min-height: 154px;
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-bottom: 26px;
+    }
+    .description-title-holder {
+        margin-bottom: 24px;
+    }
+
+    .description-title-holder h1 {
+        max-width: 580px;
+        min-height: 108px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 0px;
+    }
+
+    .description-card img {
+        margin-bottom: 32px;
+    }
 
     #arrow-bottom1, #arrow-bottom2, #arrow-top {
         display: none;
@@ -75,6 +195,22 @@
 
     /* REVIEW */
 
+    .review {
+        margin-bottom: 80px;
+    }
+
+    #decor-blue {
+        max-width: 80px
+    }
+
+
+    .review-title-long {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+    }
+
     .review-title {
         text-align: center;
     }
@@ -93,6 +229,21 @@
     }
 
     /* PLATFORMS */
+    .platforms {
+        margin-bottom: 86px;
+    }
+
+    #decor-red {
+        max-width: 80px;
+        top: -80px;
+        left: -20px;
+    }
+
+    .platforms-title-holder h1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+    }
 
     .pltfrms-br1 {
         display: block;
@@ -109,19 +260,40 @@
     .platforms-icons {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        column-gap: 175px;
+        column-gap: 102px;
     }
 
 
 
 
     /* HERO BOTTOM */
+    #bottom-hero{
+        margin-bottom: 91px;
+    }
+
+
     #bottom-hero-content{
         max-width: 1000px;
+        margin-top: 0px;
     }
 
     #bottom-hero-content h1{
-        font-size: 40px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .lobster2 {
+        position: relative;
+        max-width: 288px;
+        bottom: 50px;
+        left: 140px;
+    }
+
+    #wave2 {
+        max-width: 40px;
+        left: 360px;
+        top: 30px;
     }
 
     #bottom-hero-wrapper {
@@ -133,6 +305,13 @@
     }
 
     /* FOOTER */
+    .footer{
+        padding-bottom: 36px;
+    }
+
+    #decor-yellow-black {
+        bottom: -160px;
+    }
 
     #footer-info {
         display: none;
@@ -339,4 +518,4 @@
     .platforms-icons {
         column-gap: 8px;
     }
-}
+} 

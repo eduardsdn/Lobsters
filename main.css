@@ -146,6 +146,7 @@ body {
     color: #000000;
     text-decoration:underline ;
 }
+
 .hero-button {
     max-width: 207px;
     padding: 14px 34px 14px 34px;
@@ -153,7 +154,15 @@ body {
     background-color: #E30029;
     font-weight: 600;
     font-size: 18px;
-    border-radius: 100px;
+    border-radius: 80px;
+}
+
+.hero-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    white-space: nowrap;
+    border: 1px solid #C9C9C9;
+    
 }
 
 .hero-image {
@@ -527,13 +536,53 @@ iframe {
 }
 
 .other-cases-slider-buttons {
+    position: relative;
     display: flex;
     gap: 8px;
 }
 
-.other-cases-slider-button {
-
+.slider-button {
+    position: relative;
+    /* border: solid; */
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #C9C9C9;
 }
+
+.slider-button:hover {
+    background-color: #E30029;
+}
+
+.slider-button div {
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.slider-button:hover div{
+    color:#FFFFFF;
+}
+
+#other-cases-next-button div {
+    top: 10px;
+    left: 8px;
+    transform: rotate(135deg);
+}
+
+#other-cases-prev-button div {
+    top: 10px;
+    right: 8px;
+    transform: rotate(-45deg);
+}
+
+
+
+
 
 .other-cases-cards-slider {
     display: flex;
@@ -622,12 +671,27 @@ iframe {
     margin-left: 230px;
 }
 
-.reviews-slider-buttons {
 
+.review-buttons-holder {
+    position: relative;
+    display: flex;
+    gap: 8px;
 }
 
-.reviews-slider-button {
+#reviews-next-button div {
+    top: 10px;
+    left: 8px;
+    transform: rotate(135deg);
+}
 
+#reviews-prev-button div {
+    top: 10px;
+    right: 8px;
+    transform: rotate(-45deg);
+}
+
+#reviews-prev-button, #reviews-next-button {
+    border: inherit;
 }
 
 .reviews-cards-slider {

@@ -8,23 +8,7 @@
     .header {
         margin-bottom: 100px;
     }
-    .hero-content h1 {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 29px;
-    }
-
-    .hero-content p {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-    }
-
-    .hero-button {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-    }
+    
     .nav {
         gap: 20px;
     }
@@ -68,6 +52,24 @@
     }
 
     /* HERO */
+    .hero-button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .hero-content h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .hero-content p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
     .hero {
         margin-bottom: 15px;
     }
@@ -78,7 +80,7 @@
     }
 
     .hero-content{
-        /* max-width: 100%; */
+        max-width: 620px;
     }
 
     .hero-content h1{
