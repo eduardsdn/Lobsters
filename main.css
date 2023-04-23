@@ -1000,13 +1000,13 @@ iframe {
     display: flex;
 }
 
-.login-popop-top {
+.login-popup-top {
     display: flex;
     justify-content: space-between;
     padding-bottom: 24px;
 }
 
-.login-popop-top h1 {
+.login-popup-top h1 {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -1101,4 +1101,108 @@ iframe {
 #apple {
     top: 10px;
     left: 15px;
+}
+
+/* registration popup */
+
+.registration-popup {
+    width: 463px;
+    height: 778px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 30px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .3);
+}
+
+.registration-popup-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.registration-popup-top h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.login-popup-warning {
+    padding: 16px;
+    max-width: 403px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    background: #D8E6FF;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.registration-popup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-popup-form input {
+    background: #EEEEEE;
+    border-radius: 8px;
+    max-width: 403px;
+    height: 40px;
+    margin-bottom:16px;
+}
+
+.registration-popup-form label {
+    color: #676767;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 6px;
+}
+
+.registration-popup-dropdown-button {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 162px;
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: 1px solid #C9C9C9;
+    margin-bottom: 20px;
+}
+
+.registration-popup-dropdown-button div {
+    height: 11px;
+    width: 11px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    transform: rotate(225deg);
+}
+
+.agreement-checkbox {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+.registration-popup-submit-button {
+    max-width: 189px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    /* border: 1px solid #C9C9C9; */
+    background-color: #E30029;
+    border-radius: 100px;
+    color: #F6F7F8;
 }

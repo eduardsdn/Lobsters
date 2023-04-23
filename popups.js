@@ -28,5 +28,22 @@ function loginPopUp(){
     })
 }
 
+function registrationPopUp(){
+    const registrationPopup = document.querySelector(".registration-popup")
+    const registrationButton = document.querySelector(".registration-button")
+    const registrationClose = document.querySelector("#registration-popup-close")
+
+    registrationButton.addEventListener('click', function(){
+        registrationPopup.classList.remove("hidden")
+        registrationPopup.classList.add("shown")
+    })
+
+    registrationClose.addEventListener('click', function(){
+        registrationPopup.classList.remove("shown")
+        registrationPopup.classList.add("hidden")
+    })
+}
+
 mobileMenuPopUp()
 loginPopUp()
+registrationPopUp()

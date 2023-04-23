@@ -713,7 +713,7 @@
 
 
    <div class="login-popup hidden">
-        <div class="login-popop-top">
+        <div class="login-popup-top">
             <h1>Вход</h1>
             <div class="close" id="login-popup-close"></div>
         </div>
@@ -743,8 +743,43 @@
             <button class="login-other-button"><img src="assets/icons_media/facebook-login.svg">Войти через Facebook</button>
 
         </div>
+   </div>
 
+   <div class="registration-popup hidden">
+        <div class="registration-popup-top">
+            <h1>Регистрация</h1>
+            <div class="close" id="registration-popup-close"></div>
+        </div>
 
+        <p class="login-popup-warning">
+            Внимание! Указывайте только корректные контактные данные. Если мы не сможем связаться с вами, вы не получите доступ к личному кабинету
+        </p>
+
+        <form class="registration-popup-form" method="post">
+            <label for="email">ФИО</label>
+            <input type="text" name="name" autocomplete="name" placeholder="ФИО" required/>
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" autocomplete="name" placeholder="Укажите e-mail" required/>
+
+            <label for="media-link">Телеграм / whats app</label>
+            <input type="text" name="media-link" placeholder="Ссылка на телеграм или whats app" required/>
+
+            <label for="phone">Телефон</label>
+            <input type="text" name="phone" placeholder="Укажите телефон" required/>
+
+            <label for="platform">Площадка</label>
+            <input type="text" name="platform" placeholder="Ссылка на сайт / телеграм / дзен / другое" required/>
+
+            <button class="registration-popup-dropdown-button">Ваш статус <div></div></button>
+
+            <div class="agreement-checkbox">
+                <input type="checkbox" id="agreement" name="remember-me">
+                <label for="remember-me">Я принимаю <a href="">Оферту</a> и <a href="">Политику обработки персональных данных</a></label>
+            </div>
+
+            <button class="registration-popup-submit-button">Оставить заявку</button>
+        </form>
    </div>
 
 
