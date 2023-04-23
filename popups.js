@@ -44,6 +44,24 @@ function registrationPopUp(){
     })
 }
 
+function registrationStatusList() {
+    const statusList = document.querySelector(".status-list")
+    const statusListOpen = document.querySelector(".registration-popup-dropdown-button")
+    const statusListClose = document.querySelector("#status-list-close-button")
+
+    statusListOpen.addEventListener('click', function(){
+        statusList.classList.remove("hidden")
+        statusList.classList.add("shown")
+    })
+
+    statusListClose.addEventListener('click', function(){
+        statusList.classList.remove("shown")
+        statusList.classList.add("hidden")
+    })
+}
+
+
 mobileMenuPopUp()
 loginPopUp()
 registrationPopUp()
+registrationStatusList()

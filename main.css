@@ -1030,6 +1030,20 @@ iframe {
     max-width: 403px;
     height: 40px;
     margin-bottom:16px;
+    padding: 16px;
+}
+
+.sign-in-form input:focus {
+    border: 1px solid #7BABFF;
+}
+.sign-in-form input::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #676767;
+    position: absolute;
+    top: 10px;
+    left: 16px;
 }
 
 .sign-in-form-bottom {
@@ -1054,6 +1068,7 @@ iframe {
 .remember-me-checkbox input {
     margin-bottom: 0%;
 }
+
 
 .remember-me-checkbox label{
     font-weight: 500;
@@ -1105,6 +1120,7 @@ iframe {
 
 /* registration popup */
 
+
 .registration-popup {
     width: 463px;
     height: 778px;
@@ -1155,7 +1171,40 @@ iframe {
     max-width: 403px;
     height: 40px;
     margin-bottom:16px;
+    padding: 16px;
 }
+
+.registration-popup-form input::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #676767;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.registration-popup-form input:focus {
+    border: 1px solid #7BABFF;
+}
+
+/* .registration-popup-form input:invalid {
+    border: 1px solid #FF002E;
+} */
+
+/* #agreement {
+    --size: 16px;
+    min-width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+    margin: 0 10px;
+    position: relative;
+    padding-left: var(--size);
+  } */
 
 .registration-popup-form label {
     color: #676767;
@@ -1177,6 +1226,39 @@ iframe {
     border-radius: 100px;
     border: 1px solid #C9C9C9;
     margin-bottom: 20px;
+}
+
+.status-list {
+    width: 326px;
+    position: absolute;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px 24px 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    border-radius: 10px;
+    bottom: 5px;
+}
+
+#status-list-close-button {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.status-list-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    /* max-width: 236px; */
+    max-height: 18px;
+}
+
+.status-list-item label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .registration-popup-dropdown-button div {

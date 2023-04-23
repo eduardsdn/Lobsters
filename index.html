@@ -772,10 +772,28 @@
             <input type="text" name="platform" placeholder="Ссылка на сайт / телеграм / дзен / другое" required/>
 
             <button class="registration-popup-dropdown-button">Ваш статус <div></div></button>
+            <ul class="status-list hidden">
+                <li class="status-list-item">
+                    <input type="radio" id="fiz">
+                    <label for="fiz">Физ. лицо, самозанятость</label>
+                </li>
+                
+                <li class="status-list-item">
+                    <input type="radio" id="ip">
+                    <label for="ip">ИП</label>
+                </li>
+
+                <li class="status-list-item">
+                    <input type="radio" id="urlico">
+                    <label for="urlico">Юридическое лицо</label>
+                </li>
+
+                <div class="close" id="status-list-close-button"></div>
+            </ul>
 
             <div class="agreement-checkbox">
-                <input type="checkbox" id="agreement" name="remember-me">
-                <label for="remember-me">Я принимаю <a href="">Оферту</a> и <a href="">Политику обработки персональных данных</a></label>
+                <input type="radio" id="agreement" name="agreement">
+                <label for="agreement">Я принимаю <a href="">Оферту</a> и <a href="">Политику обработки персональных данных</a></label>
             </div>
 
             <button class="registration-popup-submit-button">Оставить заявку</button>
