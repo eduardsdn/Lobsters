@@ -610,7 +610,7 @@ body {
     transform: translate(-50%, -50%);
     width: 50%;
     /* left: 1%; */
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px 15px 20px;
@@ -619,6 +619,8 @@ body {
     min-height: 568px;
     background: #FFFFFF;
     border-radius: 10px;
+
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .3);
 }
 
 .hidden{
@@ -716,4 +718,126 @@ body {
 .mobile-menu-button:hover {
     background-color: #E30029;
     color: #F6F7F8;
+}
+
+/* Log in pop up */
+
+.login-popup {
+    flex-direction: column;
+    width: 463px;
+    padding: 32px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .3);
+}
+
+.shown {
+    display: flex;
+}
+
+.login-popop-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.login-popop-top h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-form label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 6px;
+}
+
+.sign-in-form input {
+    background: #EEEEEE;
+    border-radius: 8px;
+    max-width: 403px;
+    height: 40px;
+    margin-bottom:16px;
+}
+
+.sign-in-form-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in-form-bottom a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #E30029;
+}
+
+.remember-me-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remember-me-checkbox input {
+    margin-bottom: 0%;
+}
+
+.remember-me-checkbox label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.forgot-password {
+
+}
+
+.sign-in-form-button {
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    /* border: 1px solid #C9C9C9; */
+    background-color: #E30029;
+    border-radius: 100px;
+    color: #F6F7F8;
+    margin-bottom: 24px;
+}
+
+.login-other-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-other-button {
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: 1px solid #C9C9C9;
+}
+
+.login-other-button img {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+#apple {
+    top: 10px;
+    left: 15px;
 }

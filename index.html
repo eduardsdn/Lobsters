@@ -28,8 +28,8 @@
                     </ul>
 
                     <div class="header-buttons">
-                        <button class="header-button">Войти</button>
-                        <button class="header-button">Регистрация</button>
+                        <button class="header-button log-in-button">Войти</button>
+                        <button class="header-button registration-button">Регистрация</button>
                     </div>
 
                 </nav>
@@ -696,7 +696,7 @@
    <div class="mobile-menu hidden">
        <div class="mobile-menu-top">
            <div class="close-holder">
-               <div class="close"></div>
+               <div class="close" id="mobile-menu-close"></div>
            </div>
            <nav class="mobile-menu-nav">
                <a href="index.html">Веб-мастер</a>
@@ -711,6 +711,41 @@
        </div>
    </div>
 
+
+   <div class="login-popup hidden">
+        <div class="login-popop-top">
+            <h1>Вход</h1>
+            <div class="close" id="login-popup-close"></div>
+        </div>
+
+        <form class="sign-in-form" method="post">
+
+            <label for="email">Email или телефон</label>
+            <input type="text" name="email" autocomplete="email" required/>
+
+            <label for="password">Пароль</label>
+            <input type="text" name="password" autocomplete="email" required/>
+
+            <div class="sign-in-form-bottom">
+                <div class="remember-me-checkbox">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Запомнить меня</label>
+                </div>
+                <a class="forgot-password">Забыли пароль?</a>
+            </div>
+
+            <button type="submit" class="sign-in-form-button">Войти</button>
+        </form>
+
+        <div class="login-other-buttons">
+            <button class="login-other-button"><img src="assets/icons_media/chrome-login.svg">Войти через Google</button>
+            <button class="login-other-button"><img src="assets/icons_media/apple-login.svg" id="apple">Войти через Apple</button>
+            <button class="login-other-button"><img src="assets/icons_media/facebook-login.svg">Войти через Facebook</button>
+
+        </div>
+
+
+   </div>
 
 
 
