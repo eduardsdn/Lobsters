@@ -876,4 +876,37 @@
         max-width: 109px;
     }
 
-}
+    /* Login Pop Up */
+    .login-popup {
+        max-width: 343px;
+        padding: 18px 16px 16px 16px;
+    }
+
+    /* registration pop Up */
+    .registration-popup {
+        max-width: 343px;
+        overflow-y:auto;
+        padding: 18px 16px 16px 16px;
+    }
+    .login-popup-warning {
+        font-size: 11px;
+    }
+
+    .registration-popup-dropdown-button {
+        max-width: 311px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 120px;
+        margin-bottom: 16px;
+    }
+
+    .registration-popup-submit-button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 311px;
+    }
+
+    .registration-popup-form input::placeholder {
+        font-size: 10px;
+    }
+}   
