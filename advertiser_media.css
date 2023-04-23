@@ -323,11 +323,16 @@
 }
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:760px) {
     /* HEADER */
+    .header {
+        box-shadow: none;
+        margin-bottom: 52px;
+    }
 
     #wave1 {
-        display: none;
+        left: 240px;
+        top: 0px;
     }
 
     .header-nav-links {
@@ -349,10 +354,27 @@
     }
 
     .hero-image {
+        min-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .hero-image img {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    #squigly-yellow {
+        display: block;
+        max-width: 78px;
+        left: 25px;
+    }
+
+    
 
     .lobster1 {
         max-width: 213px;
@@ -371,10 +393,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 71px;
+        margin-bottom: 42px;
     }
 
     .hero-content h1 {
+        max-width: 321px;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
@@ -383,12 +406,20 @@
 
 
     .hero-content p {
+        max-width: 343px;
         margin-bottom:24px;
         /* max-width: 343px; */
         text-align: center;
     }
 
     /* STEPS */
+    .steps {
+        margin-bottom: 68px;
+    }
+
+    .steps-card {
+        max-width: 343px;
+    }
 
     .steps-row {
         flex-direction: column;
@@ -405,6 +436,8 @@
     /* DESCRIPTION */
     .description {
         margin-bottom: 60px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .descr-br2 {
@@ -415,6 +448,12 @@
         max-width: 73px;
     }
 
+    .description-title-holder h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
     .description-cards {
         display: flex;
         flex-wrap: nowrap;
@@ -422,6 +461,8 @@
     }
 
     .description-card {
+        min-width: 343px;
+        max-width: 343px;
         width: auto;
     }
 
@@ -430,31 +471,87 @@
         margin-bottom: 69px;
     }
 
+    .platforms-title-holder {
+        margin-bottom: 29px;
+    }
+
+    .platforms-title-holder h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .platforms-icon {
+        gap:13px;
+    }
+
+    .platforms-icon img {
+        width: 38px;
+    }
+
+    .platforms-icon p {
+        font-size: 11px;
+    }
+
     #decor-red {
         display: none;
     }
 
     .platforms-icons {
-        column-gap: 76px;
+        column-gap: 8px;
+        row-gap: 26px;
+        margin: auto;
     }
 
     /* REVIEW */
 
     .review {
-        margin-bottom: 0px;
+        margin-bottom: 60px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .review-title-long {
         display: none;
     }
 
+    .review-title-holder {
+        margin-bottom: 24px;
+    }
+
     .review-title-short{
-        text-align: center;
         display: block;
         font-weight: 600;
-        font-size: 40px;
+        font-size: 24px;
         line-height: 29px;
+        text-align: center;
     }
+
+    .review-card {
+        max-width: 343px;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .review-card img {
+        width: 48px;
+        height: 48px;
+        align-self: center;
+    }
+
+
+    .review-card-content h1 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .review-card-content p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
 
     #decor-blue{
         display: none;
@@ -463,15 +560,20 @@
     
 
     /* HERO BOTTOM */
+    #bottom-hero {
+        margin: 0%;
+        margin-bottom: 62px;
+    }
 
     #bottom-hero-content h1 {
         font-weight: 600;
         font-size: 24px;
         line-height: 28px;
+        margin-bottom: 24px;
     }
 
     #bottom-hero-content {
-        margin: 0;
+        margin-bottom: 52px;
     }
 
     .hero-btm-br1 {
@@ -486,19 +588,22 @@
     }
 
     #wave2 {
-        display: none;
+        max-width: 40px;
+        left: 240px;
+        top: 0px;
     }
 
     .lobster2 {
         max-width: 213px;
     }
 
+    #decor-yellow-black {
+        max-width: 70px;
+        bottom: -105px;
+    }
+
 
     /* FOOTER */
-
-    #decor-yellow-black {
-        max-width: 96px;
-    }
 
     .footer-columns-holder {
         flex-direction: column;

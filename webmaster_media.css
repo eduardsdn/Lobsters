@@ -425,8 +425,13 @@
     }
 
     /* HERO */
+    #bottom-hero {
+        margin-top: 60px;
+    }
+
+
     #wave1 {
-        left: 280px;
+        left: 240px;
         top: 0px;
     }
     
@@ -507,11 +512,6 @@
         gap: 16px;
     }
 
-    .description-title-holder h1 {
-        font-weight: 600;
-        font-size: 24px;
-    }
-
     .steps-card-number {
         margin-bottom: 32px;
     }
@@ -523,6 +523,11 @@
     }
     .description {
         margin-bottom: 60px;
+    }
+
+    .description-title-holder h1 {
+        font-weight: 600;
+        font-size: 24px;
     }
 
     .descr-br2 {
@@ -598,6 +603,7 @@
 
     .platforms-icons {
         column-gap: 8px;
+        row-gap: 26px;
         margin: auto;
     }
 
@@ -840,8 +846,14 @@
         display: none;
     }
 
+    .lobster2 {
+        max-width: 213px;
+    }
+
     #wave2 {
-        display: none;
+        max-width: 40px;
+        left: 240px;
+        top: 0px;
     }
 
     #decor-yellow-black {
