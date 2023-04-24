@@ -51,7 +51,7 @@ function registrationPopUp(){
     const registrationButton = document.querySelector(".registration-button")
     const registrationClose = document.querySelector("#registration-popup-close")
     const mobileRegistrationButton = document.querySelector("#mobile-registration-button")
-    const mobileCloseButton = document.querySelector("#mobile-registration-close")
+    const mobileCloseButton = document.querySelector("#registration-popup-close")
     const mobileMenu = document.querySelector(".mobile-menu")
 
     registrationButton.addEventListener('click', function(){
