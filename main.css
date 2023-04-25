@@ -616,17 +616,17 @@ iframe {
     font-size: 16px;
 } */
 
-.other-cases-card-platforms {
+/* .other-cases-card-platforms {
     margin-bottom: 20px;
     font-weight: 500;
-    /* font-size: 16px; 
+    font-size: 16px; 
 }
 
 .other-cases-card-activity p {
-    /* margin-bottom: 20px; */
-    /* font-weight: 500;
-    font-size: 16px; */
-}
+    margin-bottom: 20px; 
+    font-weight: 500;
+    font-size: 16px;
+} */
 
 .card-gray-title {
     margin-bottom: 6px;
@@ -706,11 +706,16 @@ iframe {
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    overflow: hidden;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     scroll-snap-type: both;
 }
+
+.reviews-cards-slider::-webkit-scrollbar {
+    display: none;
+}
+
 
 .reviews-card {
     flex-shrink: 0;
