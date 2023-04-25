@@ -60,7 +60,7 @@ body {
 }
 
 .header-nav-links {
-    margin-right: 330px;
+    /* margin-right: 330px; */
 }
 
 .nav-list {
@@ -171,6 +171,11 @@ body {
     font-weight: 600;
     font-size: 18px;
     border-radius: 100px;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .hero-image {
@@ -382,7 +387,7 @@ body {
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
     row-gap: 44px;
-    column-gap: 273px;
+    column-gap: 220px;
 }
 
 .platforms-icon {
@@ -514,7 +519,7 @@ body {
 #decor-yellow-black {
     position: absolute;
     right: 0px;
-    bottom: -130px;
+    /* bottom: -130px; */
 }
 
 /* ----- FOOTER ----- */

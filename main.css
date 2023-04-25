@@ -415,7 +415,7 @@ body {
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
     row-gap: 44px;
-    column-gap: 273px;
+    column-gap: 220px;
 }
 
 .platforms-icon {
@@ -798,7 +798,7 @@ iframe {
 #decor-yellow-black {
     position: absolute;
     right: 0px;
-    bottom: -210px;
+    /* bottom: -210px; */
 }
 
 /* ----- FOOTER ----- */
