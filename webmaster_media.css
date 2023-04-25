@@ -431,7 +431,7 @@
 
 
     #wave1 {
-        left: 240px;
+        left: 170px;
         top: 0px;
     }
     
@@ -446,10 +446,14 @@
     }
 
     .hero-image {
-        /* min-width: 100%; */
+        min-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .hero-image-content {
+        position: relative;
     }
 
     .hero-image img {
@@ -852,7 +856,7 @@
 
     #wave2 {
         max-width: 40px;
-        left: 240px;
+        left: 170px;
         top: 0px;
     }
 
@@ -883,10 +887,7 @@
     }
 
     /* registration pop Up */
-    .body-acctive-pop-up {
-        overflow: hidden;
-    }
-
+    
     .registration-popup {
         max-width: 343px;
         overflow-y:auto;

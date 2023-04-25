@@ -715,7 +715,7 @@ iframe {
 .reviews-cards-slider::-webkit-scrollbar {
     display: none;
 }
-
+ 
 
 .reviews-card {
     flex-shrink: 0;

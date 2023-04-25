@@ -93,6 +93,8 @@
         align-self: flex-end;
     }
 
+    
+
     /* STEPS */
     .steps {
         margin-bottom: 80px;
@@ -331,7 +333,7 @@
     }
 
     #wave1 {
-        left: 240px;
+        left: 170px;
         top: 0px;
     }
 
@@ -366,6 +368,10 @@
         bottom: 0px;
         left: 0px;
         right: 0px;
+    }
+
+    .hero-image-content {
+        position: relative;
     }
 
     #squigly-yellow {
@@ -589,7 +595,7 @@
 
     #wave2 {
         max-width: 40px;
-        left: 240px;
+        left: 170px;
         top: 0px;
     }
 
