@@ -412,6 +412,10 @@
         margin-bottom: 60px;
     }
 
+    .lobsters-logo-link img {
+        max-width: 130px;
+    }
+
     .header-nav-links {
         display: none;
     }

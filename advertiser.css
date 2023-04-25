@@ -147,7 +147,7 @@ body {
 .hero-content h1 {
   font-weight: 700;
   font-size: 3.125em;
-  line-height: 46px;
+  line-height: 52px;
   margin-bottom: 32px;
 }
 
@@ -171,6 +171,12 @@ body {
     font-weight: 600;
     font-size: 18px;
     border-radius: 100px;
+}
+
+.hero-button:hover {
+    background-color: #E30029CC;
+    color: #F6F7F8;
+    white-space: nowrap;
 }
 
 .hero-button a {

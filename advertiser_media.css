@@ -332,6 +332,10 @@
         margin-bottom: 52px;
     }
 
+    .lobsters-logo-link img {
+        max-width: 130px;
+    }
+
     #wave1 {
         left: 170px;
         top: 0px;

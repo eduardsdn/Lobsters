@@ -159,10 +159,10 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #E30029CC;
+    color: #F6F7F8;
     white-space: nowrap;
-    border: 1px solid #C9C9C9;
+    /* border: 1px solid #C9C9C9; */
     
 }
 
