@@ -446,7 +446,7 @@
     }
 
     .hero-image {
-        min-width: 100%;
+        /* min-width: 100%; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -883,10 +883,15 @@
     }
 
     /* registration pop Up */
+    .body-acctive-pop-up {
+        overflow: hidden;
+    }
+
     .registration-popup {
         max-width: 343px;
         overflow-y:auto;
         padding: 18px 16px 16px 16px;
+        overflow-y: scroll;
     }
     .login-popup-warning {
         font-size: 11px;

@@ -1296,3 +1296,8 @@ iframe {
     border-radius: 100px;
     color: #F6F7F8;
 }
+
+
+.body-active-pop-up {
+    overflow: hidden;
+}

@@ -16,6 +16,7 @@ function mobileMenuPopUp(){
 }
 
 function loginPopUp(){
+    const body = document.querySelector("body")
     const loginPopup = document.querySelector(".login-popup")
     const loginButton = document.querySelector(".log-in-button")
     const mobileLoginButton = document.querySelector("#mobile-login-button")
@@ -27,6 +28,7 @@ function loginPopUp(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        body.classList.add("body-active-pop-up")
     })
     mobileLoginButton.addEventListener('click', function(){
         loginPopup.classList.remove("hidden")
@@ -38,15 +40,18 @@ function loginPopUp(){
         loginPopup.classList.remove("shown")
         loginPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
+        body.classList.remove("body-active-pop-up")
     })
     mobileCloseButton.addEventListener('click', function(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        body.classList.remove("body-active-pop-up")
     })
 }
 
 function registrationPopUp(){
+    const body = document.querySelector("body")
     const registrationPopup = document.querySelector(".registration-popup")
     const registrationButton = document.querySelector(".registration-button")
     const registrationClose = document.querySelector("#registration-popup-close")
@@ -58,24 +63,28 @@ function registrationPopUp(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        body.classList.add("body-active-pop-up")
     })
 
     mobileRegistrationButton.addEventListener('click', function(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        body.classList.add("body-active-pop-up")
     })
 
     registrationClose.addEventListener('click', function(){
         registrationPopup.classList.remove("shown")
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
+        body.classList.remove("body-active-pop-up")
     })
 
     mobileCloseButton.addEventListener('click', function(){
         registrationPopup.classList.remove("shown")
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
+        body.classList.remove("body-active-pop-up")
     })
 }
 
