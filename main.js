@@ -108,7 +108,7 @@ function reviewsSliderDrag(){
 }
 
 
-otherCasesSliderDrag()
-reviewsSliderDrag()
+// otherCasesSliderDrag()
+// reviewsSliderDrag()
 otherCasesSliderClick()
 reviewsSliderClick()
