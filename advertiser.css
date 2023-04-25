@@ -616,9 +616,12 @@ body {
     padding: 20px 15px 20px;
     min-width: 375px;
     max-width: 375px;
-    min-height: 568px;
+    height: 568px;
     background: #FFFFFF;
     border-radius: 10px;
+
+    max-height: 90vh;
+    overflow-y: scroll;
 
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .3);
 }
