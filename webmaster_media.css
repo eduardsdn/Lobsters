@@ -57,6 +57,10 @@
         font-size: 18px;
         line-height: 22px;
     }
+
+    .hero-link{
+        text-decoration: none;
+    }
     
     .hero-content h1 {
         font-weight: 700;
