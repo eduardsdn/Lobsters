@@ -333,6 +333,7 @@ body {
 #underline-straight {
     position: absolute;
     top:45px;
+    left:0px;
 }
 
 .brands-cards {
