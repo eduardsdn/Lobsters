@@ -235,8 +235,12 @@
         max-width: 160px;
     }
 
+    .brands-link {
+        align-items: center;
+    }
+
     .brands-link p{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     /* PLATFORMS */
