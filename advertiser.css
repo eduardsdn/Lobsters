@@ -115,7 +115,7 @@ body {
 
 /* ----- HERO ----- */
 .hero {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -209,6 +209,9 @@ body {
 
 .steps {
     margin-bottom: 140px;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: 50px;
 }
 
 .steps-row {
@@ -264,7 +267,7 @@ body {
     padding-top: 60px;
     padding-bottom: 110px;
     background-color: #ffe2e073;
-    margin-bottom: 140px;
+    margin-bottom: 130px;
     position: relative;
 }
 
@@ -345,11 +348,14 @@ body {
 .platforms {
     margin-bottom: 161px;
     position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: 10px;
 }
 
 #decor-red {
     position: absolute;
-    top: -100px;
+    bottom: -190px;
 }
 
 

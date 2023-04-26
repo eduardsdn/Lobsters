@@ -112,7 +112,7 @@ body {
 /* ----- HERO ----- */
 .hero {
     /* margin-top: 100px; */
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -189,6 +189,9 @@ body {
 
 .steps {
     margin-bottom: 140px;
+    padding-top: 50px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .steps-row {
@@ -376,7 +379,7 @@ body {
 
 .platforms {
     padding-top: 60px;
-    margin-bottom: 161px;
+    margin-bottom: 111px;
     background-color: rgba(216, 230, 255, 0.4);
     position: relative;
 }
@@ -438,14 +441,11 @@ body {
 
 /* ----- CASE ----- */
 .case {
+    padding-top: 50px;
     margin-bottom: 155px;
     position: relative;
-}
-
-#decor-blue {
-    position: absolute;
-    right: 0px;
-    bottom: -100px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .case-wrapper {
@@ -521,10 +521,16 @@ iframe {
 }
 
 /* ----- OTHER CASES ----- */
+#decor-blue {
+    position: absolute;
+    right: 0px;
+    top: -190px;
+}
 
 .other-cases {
     /* display: flex;
     flex-direction: column; */
+    position: relative;
     margin-bottom: 140px;
 }
 

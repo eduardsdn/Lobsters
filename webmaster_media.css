@@ -79,9 +79,9 @@
         flex-direction: column;
     }
 
-    .hero-content{
+    /* .hero-content{
         max-width: 620px;
-    }
+    } */
 
     .hero-content h1{
         font-weight: 700;
@@ -274,6 +274,7 @@
 
     #decor-blue {
         width: 80px;
+        top: -100px;
     }
 
     #loop {
@@ -938,3 +939,9 @@
         font-size: 10px;
     }
 }   
+
+@media only screen and (max-width:336px) {
+    #underline-straight{
+        display: none;
+    } 
+}
