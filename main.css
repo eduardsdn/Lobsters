@@ -126,6 +126,14 @@ body {
     max-width: 692px;
 }
 
+.hero-content-title-holder{
+    position: relative;
+}
+
+
+
+
+
 #squigly-yellow {
     position: absolute;
     top: -40px;

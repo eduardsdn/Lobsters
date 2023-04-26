@@ -129,6 +129,10 @@ body {
     max-width: 692px;
 }
 
+.hero-content-title-holder {
+    position: relative;
+}
+
 #bottom-hero-content {
     max-width: 443px;
 }
