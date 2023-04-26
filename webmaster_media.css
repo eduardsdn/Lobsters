@@ -310,6 +310,10 @@
         width: 328px;
     }
 
+    .other-cases-card-title p {
+        font-size: 16px;
+    }
+
     /* REVIEWS */
     .reviews {
         margin-bottom: 0px;
@@ -699,12 +703,16 @@
         line-height: 13px;
     } */
 
-    /* .other-cases-card-activity p {
+    .other-cases-card-activity p, .other-cases-card-title p{
         font-weight: 600;
-        font-size: 12px;
-    } */
+        font-size: 11px;
+    }
 
-    .cases-card-stats {
+    .other-cases-card-platforms {
+        margin-bottom: 16px;
+    }
+
+    .cases-card-stats p{
         font-weight: 500;
         font-size: 12px;
         line-height: 140%;
@@ -720,6 +728,10 @@
         margin-bottom: 16px;
     }
 
+    .cases-card-stats {
+        margin-bottom: 16px;
+    }
+
     .other-cases-card-title-text {
         font-weight: 500;
         font-size: 12px;
@@ -728,7 +740,7 @@
 
     .other-cases-card-title  {
         font-weight: 500;
-        font-size: 12 px;
+        margin-bottom: 16px;
         line-height: 17px;
     }
 
