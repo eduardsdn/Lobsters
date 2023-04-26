@@ -235,6 +235,10 @@
         max-width: 160px;
     }
 
+    .brands-link p{
+        font-size: 12px;
+    }
+
     /* PLATFORMS */
     .platforms {
         margin-bottom: 100px;
