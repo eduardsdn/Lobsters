@@ -129,7 +129,7 @@
     }
 
     .steps-card {
-        min-width: 226px;
+        /* min-width: 226px; */
         max-width: 387px;
     }
 
@@ -240,12 +240,18 @@
         font-size: 32px;
         text-align: center;
     }
+
+    #grass-left {
+        max-width: 30px;
+        top: -25px;
+        left: -30px;
+    }
     
 
     #arrow_red {
-        max-width: 100px;
+        max-width: 70px;
         top: 40px;
-        left: -130px;
+        left: -90px;
     }
 
     #decor_yellow-white {
