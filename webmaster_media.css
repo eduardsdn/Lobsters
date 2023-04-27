@@ -621,6 +621,9 @@
     }
 
     /* BRANDS */
+    .brands-link p {
+        font-size: 12px;
+    }
 
     #underline-straight {
         width: 150px;
@@ -1029,5 +1032,26 @@
 
     .brands-link p {
         font-size: 12px;
+    }
+}
+
+@media(max-width: 342px) {
+    .steps-card {
+        max-width: 250px;
+    }
+    
+    .brands-link p,.brands-link-holder a {
+        font-size: 9px;
+    }
+
+}
+
+@media(max-width: 350px) {
+    .registration-popup {
+        width: 80%;
+    }
+
+    .login-popup {
+        width: 80%;
     }
 }
