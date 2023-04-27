@@ -971,7 +971,7 @@ iframe {
 }
 
 .close:hover:after {
-    border-color: #FFFFFF;
+    border-radius: #FFFFFF;
 }
 
 .close:hover:before {
@@ -1255,6 +1255,7 @@ iframe {
 }
 
 .registration-popup-form input {
+    position: relative;
     background: #EEEEEE;
     border-radius: 8px;
     max-width: 403px;
@@ -1264,11 +1265,11 @@ iframe {
 }
 
 .registration-popup-form input::placeholder {
+    position: absolute;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     color: #676767;
-    position: absolute;
     top: 10px;
     left: 16px;
 }
