@@ -759,26 +759,25 @@
             <label for="platform">Площадка</label>
             <input type="text" name="platform" id="platform" placeholder="Ссылка на сайт / телеграм / дзен / другое" required/>
 
-            <button class="registration-popup-dropdown-button">Ваш статус <div></div></button>
-            <ul class="status-list hidden">
-
-                <li class="status-list-item">
-                    <input type="radio" name="status" id="fiz">
-                    <label for="fiz">Физ. лицо, самозанятость</label>
-                </li>
+            <div class="registration-drop-down-holder">
+                <button class="registration-popup-dropdown-button">Ваш статус <div></div></button>
+                <ul class="status-list hidden">
+                    <li class="status-list-item">
+                        <input type="radio" name="status" id="fiz">
+                        <label for="fiz">Физ. лицо, самозанятость</label>
+                    </li>
                 
-                <li class="status-list-item">
-                    <input type="radio" name="status" id="ip">
-                    <label for="ip">ИП</label>
-                </li>
-
-                <li class="status-list-item">
-                    <input type="radio" name="status" id="urlico">
-                    <label for="urlico">Юридическое лицо</label>
-                </li>
-
-                <div class="close" id="status-list-close-button"></div>
-            </ul>
+                    <li class="status-list-item">
+                        <input type="radio" name="status" id="ip">
+                        <label for="ip">ИП</label>
+                    </li>
+                    <li class="status-list-item">
+                        <input type="radio" name="status" id="urlico">
+                        <label for="urlico">Юридическое лицо</label>
+                    </li>
+                    <div class="close" id="status-list-close-button"></div>
+                </ul>
+            </div>
 
             <div class="agreement-checkbox">
                 <input type="checkbox" id="agreement" name="agreement">

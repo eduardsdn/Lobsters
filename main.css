@@ -1328,7 +1328,7 @@ iframe {
 .registration-popup-dropdown-button {
     display: flex;
     justify-content: space-evenly;
-    max-width: 162px;
+    width: 162px;
     position: relative;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -1349,7 +1349,9 @@ iframe {
     background-color: #FFFFFF;
     border: 1px solid #C9C9C9;
     border-radius: 10px;
-    bottom: 5px;
+    top: 60px;
+    height: 134px;
+    bottom: 0px;
 }
 
 #status-list-close-button {
@@ -1380,16 +1382,24 @@ iframe {
     transform: rotate(225deg);
 }
 
+.registration-drop-down-holder {
+    /* width: 100%; */
+    position: relative;
+}
+
 .agreement-checkbox {
     display: flex;
     gap: 8px;
     align-items: center;
 }
 
+.registration-popup-submit-button {
+    margin-top: 30px;
+}
+
 .agreement-checkbox a{
     /* text-decoration: none; */
     color: #666;
-    
 }
 
 
