@@ -344,6 +344,10 @@
         width: 80%;
     }
 
+    .hero-pop-up-displayed {
+        padding-top: 108px;
+    }
+
     .contacts-us-popup-top h1 {
         font-size: 18px;
     }

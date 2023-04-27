@@ -443,7 +443,10 @@
         min-width: 1px;
     }
 
-    
+    .hero-pop-up-displayed {
+        padding-top: 116px;
+    }
+
 
     /* HEADER */
 
