@@ -6,9 +6,14 @@
 
 
     /* HEADER */
+    
 
     .header {
         margin-bottom: 100px;
+    }
+
+    .header-popup-active {
+        display: none;
     }
 
 
@@ -331,6 +336,13 @@
 
 
 @media only screen and (max-width:760px) {
+
+    .mobile-menu {
+        width: 80%;
+        min-width: 1px;
+    }
+
+
     /* HEADER */
     .header {
         box-shadow: none;
@@ -648,8 +660,3 @@
     }
 } 
 
-@media(max-width: 375px) {
-    .brand__card img {
-        max-width: 90px;
-    }
-}

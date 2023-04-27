@@ -27,7 +27,7 @@ function loginPopUp(){
     const loginButton = document.querySelector(".log-in-button")
     const mobileLoginButton = document.querySelector("#mobile-login-button")
     const loginClose = document.querySelector("#login-popup-close")
-    // const mobileCloseButton = document.querySelector("#mobile-menu-close")
+    const mobileCloseButton = document.querySelector("#mobile-menu-close")
     const mobileMenu = document.querySelector(".mobile-menu")
 
     loginButton.addEventListener('click', function(){
