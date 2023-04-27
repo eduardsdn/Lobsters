@@ -334,6 +334,12 @@
 
 
 @media only screen and (max-width:760px) {
+    /* contact us pop up */
+    .contacts-us-popup {
+        width: 80%;
+    }
+
+    .contacts-us-popup
 
     .mobile-menu {
         width: 80%;
@@ -655,4 +661,5 @@
         column-gap: 8px;
     }
 } 
+
 

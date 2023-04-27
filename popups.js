@@ -67,11 +67,18 @@ function registrationPopUp(){
     const registrationPopup = document.querySelector(".registration-popup")
     const registrationButton = document.querySelector(".registration-button")
     const registrationClose = document.querySelector("#registration-popup-close")
-    // const mobileRegistrationButton = document.querySelector("#mobile-registration-button")
+    const mobileRegistrationButton = document.querySelector("#mobile-registration-button")
     const mobileCloseButton = document.querySelector("#registration-popup-close")
     const mobileMenu = document.querySelector(".mobile-menu")
 
     registrationButton.addEventListener('click', function(){
+        registrationPopup.classList.remove("hidden")
+        registrationPopup.classList.add("shown")
+        mobileMenu.classList.add("hidden")
+        body.classList.add("body-active-pop-up")
+    })
+
+    mobileRegistrationButton.addEventListener('click', function(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
@@ -137,8 +144,16 @@ function contactUsPopUp() {
     })
 }
 
+
+
+// forgotPasswordPopUp()
 contactUsPopUp()
 mobileMenuPopUp()
 loginPopUp()
 registrationPopUp()
 registrationStatusList()
+
+
+
+// /----------------------------------------------------------
+

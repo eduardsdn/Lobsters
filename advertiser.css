@@ -783,13 +783,13 @@ body {
     overflow-y: scroll;
 }
 
-.registration-popup-top {
+.contacts-us-popup-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.registration-popup-top h1{
+.contacts-us-popup-top h1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -846,5 +846,9 @@ body {
 }
 
 .hidden{
+    display: none;
+}
+
+.forgot-password {
     display: none;
 }

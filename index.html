@@ -780,14 +780,69 @@
 
             <div class="agreement-checkbox">
                 <input type="checkbox" id="agreement" name="agreement">
-                <label for="agreement">Я принимаю <a href="">Оферту</a> и <a href="">Политику обработки персональных данных</a></label>
+                <label for="agreement">Я принимаю <a href="https://lobsters.pro/oferta">Оферту</a> и <a href="https://lobsters.pro/privacy">Политику обработки персональных данных</a></label>
             </div>  
 
             <button class="registration-popup-submit-button">Оставить заявку</button>
         </form>
    </div>
 
+   <div class="forgot-password-popup hidden">
+    <div class="forgot-password-popup-top">
+        <h1>Восстановление пароля</h1>
+        <div class="close" id="forgot-password-popup-close"></div>
+    </div>
 
+    <p class="forgot-password-popup-warning">
+        Если вы забыли пароль, введите ваш e-mail
+    </p>
+
+    <form class="forgot-password-form" method="post">
+        <label for="forgot-password-email">E-mail</label>
+        <input name="email" type="text" required>
+
+        <button type="submit">Восстановить</button>
+    </form>
+
+    <div class="return-to-login">Вернуться ко входу</div>
+    
+   </div>
+
+   <script>
+       function forgotPasswordPopUp() {
+            const forgotPasswordPopUp = document.querySelector(".forgot-password-popup")
+            const forgotPasswordButton = document.querySelector(".forgot-password")
+            const forgotPasswordClose = document.querySelector("#forgot-password-popup-close")
+            const loginPopup = document.querySelector(".login-popup")
+            const returnToLogin = document.querySelector(".return-to-login")
+            const header = document.querySelector(".header")
+            const body = document.querySelector("body")
+
+            forgotPasswordButton.addEventListener('click', function(){
+                forgotPasswordPopUp.classList.remove('hidden')
+                loginPopup.classList.remove("shown")
+                loginPopup.classList.add("hidden")
+            })
+
+            forgotPasswordClose.addEventListener('click', function(){
+                forgotPasswordPopUp.classList.add('hidden')
+                header.classList.remove("header-popup-active")
+                body.classList.remove("body-active-pop-up")
+                
+            })
+
+            returnToLogin.addEventListener('click', function(){
+                forgotPasswordPopUp.classList.add('hidden')
+                loginPopup.classList.add("shown")
+                loginPopup.classList.remove("hidden")
+            })
+
+            
+
+        }
+
+        forgotPasswordPopUp()
+   </script>
 
     <script src="main.js"></script>
     <script src="popups.js"></script>
