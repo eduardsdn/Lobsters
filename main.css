@@ -47,6 +47,19 @@ body {
     /* background-image: url("/assets/images/background_img.png"); */
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99 !important;
+    background-image: url(assets/images/background_img.png);
+    background-color: #fff;
+}
+
+.hero-sticky-header {
+    padding-top: 214px;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;

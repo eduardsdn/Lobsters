@@ -38,7 +38,21 @@ body {
     border-bottom: inherit;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
     margin-bottom: 140px;
+    /* position: fixed; */
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99 !important;
+    background-image: url(assets/images/background_img.png);
+    background-color: #fff;
+}
+
+.hero-sticky-header {
+    padding-top: 210px;
+}
+
 .lobsters-logo-link img {
     min-width: 168px;
     /* height: 26px; */

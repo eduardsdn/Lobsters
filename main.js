@@ -104,10 +104,33 @@ function reviewsSliderDrag(){
 
     reviewsSlider.addEventListener('mouseup', dragStop)
     reviewsSlider.addEventListener('touchend', dragStop)
+}
+
+function stickyHeader() {
+    window.onscroll = function() {myFunction()};
+
+    const header = document.querySelector(".header");
+    const hero = document.querySelector(".hero")
+
+    let sticky = header.offsetTop;
+    console.log(sticky)
+
+    function myFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        hero.classList.add("hero-sticky-header")
+    } else {
+        header.classList.remove("sticky");
+        hero.classList.remove("hero-sticky-header")
+    }
+    }
+
+    console.log("asd")
 
 }
 
 
+stickyHeader()
 // otherCasesSliderDrag()
 // reviewsSliderDrag()
 otherCasesSliderClick()

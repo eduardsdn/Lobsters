@@ -11,6 +11,11 @@
         margin-bottom: 100px;
     }
 
+
+    .hero-sticky-header {
+        padding-top: 171px;
+    }
+
     .lobsters-logo-link img {
         min-width: 130px;
     }
@@ -330,6 +335,14 @@
     .header {
         box-shadow: none;
         margin-bottom: 52px;
+    }
+
+    .sticky {
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
+    }
+
+    .hero-sticky-header {
+        padding-top: 129px;
     }
 
     .lobsters-logo-link img {

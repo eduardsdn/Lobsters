@@ -8,6 +8,19 @@
     .header {
         margin-bottom: 100px;
     }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99 !important;
+        background-image: url(assets/images/background_img.png);
+        background-color: #fff;
+    }
+    
+    .hero-sticky-header {
+        padding-top: 164px;
+    }
     
     .nav {
         gap: 20px;
@@ -433,6 +446,20 @@
     .header {
         box-shadow: none;
         margin-bottom: 60px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99 !important;
+        background-image: url(assets/images/background_img.png);
+        background-color: #fff;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
+    }
+    
+    .hero-sticky-header {
+        padding-top: 124px;
     }
 
     .lobsters-logo-link img {
