@@ -991,3 +991,13 @@
     }
 }
 
+@media(max-width: 375px) {
+    .brand__card img {
+        max-width: 90px;
+    }
+
+    .brand__card {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

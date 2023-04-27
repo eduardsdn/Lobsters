@@ -647,3 +647,9 @@
         column-gap: 8px;
     }
 } 
+
+@media(max-width: 375px) {
+    .brand__card img {
+        max-width: 90px;
+    }
+}
