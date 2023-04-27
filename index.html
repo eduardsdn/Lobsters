@@ -748,35 +748,37 @@
         </p>
 
         <form class="registration-popup-form" method="post">
-            <label for="email">ФИО</label>
-            <input type="text" name="name" autocomplete="name" placeholder="ФИО" required/>
+
+            <label for="name">ФИО</label>
+            <input type="text" name="name" id="name" autocomplete="name" placeholder="ФИО" required/>
 
             <label for="email">E-mail</label>
-            <input type="text" name="email" autocomplete="name" placeholder="Укажите e-mail" required/>
+            <input type="text" name="email" id="email" autocomplete="name" placeholder="Укажите e-mail" required/>
 
             <label for="media-link">Телеграм / whats app</label>
-            <input type="text" name="media-link" placeholder="Ссылка на телеграм или whats app" required/>
+            <input type="text" name="media-link" id="media-link" placeholder="Ссылка на телеграм или whats app" required/>
 
             <label for="phone">Телефон</label>
-            <input type="text" name="phone" placeholder="Укажите телефон" required/>
+            <input type="text" name="phone" id="phone" placeholder="Укажите телефон" required/>
 
             <label for="platform">Площадка</label>
-            <input type="text" name="platform" placeholder="Ссылка на сайт / телеграм / дзен / другое" required/>
+            <input type="text" name="platform" id="platform" placeholder="Ссылка на сайт / телеграм / дзен / другое" required/>
 
             <button class="registration-popup-dropdown-button">Ваш статус <div></div></button>
             <ul class="status-list hidden">
+
                 <li class="status-list-item">
-                    <input type="radio" id="fiz">
+                    <input type="radio" name="status" id="fiz">
                     <label for="fiz">Физ. лицо, самозанятость</label>
                 </li>
                 
                 <li class="status-list-item">
-                    <input type="radio" id="ip">
+                    <input type="radio" name="status" id="ip">
                     <label for="ip">ИП</label>
                 </li>
 
                 <li class="status-list-item">
-                    <input type="radio" id="urlico">
+                    <input type="radio" name="status" id="urlico">
                     <label for="urlico">Юридическое лицо</label>
                 </li>
 
@@ -784,9 +786,9 @@
             </ul>
 
             <div class="agreement-checkbox">
-                <input type="radio" id="agreement" name="agreement">
+                <input type="checkbox" id="agreement" name="agreement">
                 <label for="agreement">Я принимаю <a href="">Оферту</a> и <a href="">Политику обработки персональных данных</a></label>
-            </div>
+            </div>  
 
             <button class="registration-popup-submit-button">Оставить заявку</button>
         </form>

@@ -1379,8 +1379,9 @@ iframe {
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
     position: absolute;
-    left: -9999px;
+    opacity: 0;
 }
+
 [type="radio"]:checked + label,
 [type="radio"]:not(:checked) + label
 {
@@ -1425,4 +1426,59 @@ iframe {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+/* Checkboxes */
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #676767;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 7px;
+    top: 0;
+    transform: rotate(45deg);
+    height: 14px;
+    width: 7px;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    /* -webkit-transform: scale(0); */
+    /* transform: scale(0); */
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    /* -webkit-transform: scale(1); */
+    /* transform: scale(1); */
 }
