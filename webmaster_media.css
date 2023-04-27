@@ -992,6 +992,12 @@
 }
 
 @media(max-width: 400px) {
+
+
+    /* .brand__card {
+        max-width: 130px;
+    } */
+
     .brand__card img {
         max-width: 90px;
     }
