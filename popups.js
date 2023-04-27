@@ -5,6 +5,7 @@ function mobileMenuPopUp(){
     const mobileMenu = document.querySelector(".mobile-menu")
     const mobileMenuButton = document.querySelector(".header-menu-button")
     const mobileMenuClose = document.querySelector("#mobile-menu-close")
+
     mobileMenuButton.addEventListener('click', function(){
         mobileMenu.classList.remove("hidden")
         header.classList.add("header-popup-active")
@@ -27,7 +28,7 @@ function loginPopUp(){
     const loginButton = document.querySelector(".log-in-button")
     const mobileLoginButton = document.querySelector("#mobile-login-button")
     const loginClose = document.querySelector("#login-popup-close")
-    const mobileCloseButton = document.querySelector("#mobile-menu-close")
+    // const mobileCloseButton = document.querySelector("#mobile-menu-close")
     const mobileMenu = document.querySelector(".mobile-menu")
 
     loginButton.addEventListener('click', function(){
@@ -62,10 +63,11 @@ function loginPopUp(){
 function registrationPopUp(){
     const header = document.querySelector(".header")
     const body = document.querySelector("body")
+    const beginWorkButtons = document.querySelectorAll("#begin-work-button")
     const registrationPopup = document.querySelector(".registration-popup")
     const registrationButton = document.querySelector(".registration-button")
     const registrationClose = document.querySelector("#registration-popup-close")
-    const mobileRegistrationButton = document.querySelector("#mobile-registration-button")
+    // const mobileRegistrationButton = document.querySelector("#mobile-registration-button")
     const mobileCloseButton = document.querySelector("#registration-popup-close")
     const mobileMenu = document.querySelector(".mobile-menu")
 
@@ -76,13 +78,15 @@ function registrationPopUp(){
         body.classList.add("body-active-pop-up")
     })
 
-    mobileRegistrationButton.addEventListener('click', function(){
-        registrationPopup.classList.remove("hidden")
-        registrationPopup.classList.add("shown")
-        mobileMenu.classList.add("hidden")
-        body.classList.add("body-active-pop-up")
-        header.classList.add("header-popup-active")
-    })
+    for(let i = 0; i < beginWorkButtons.length; i++) {
+        beginWorkButtons[i].addEventListener('click', function(){
+            registrationPopup.classList.remove("hidden")
+            registrationPopup.classList.add("shown")
+            mobileMenu.classList.add("hidden")
+            body.classList.add("body-active-pop-up")
+        })
+    }
+
 
     registrationClose.addEventListener('click', function(){
         registrationPopup.classList.remove("shown")
