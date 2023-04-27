@@ -1,15 +1,20 @@
 function mobileMenuPopUp(){
-
+    const header = document.querySelector(".header")
+    const body = document.querySelector("body")
 
     const mobileMenu = document.querySelector(".mobile-menu")
     const mobileMenuButton = document.querySelector(".header-menu-button")
     const mobileMenuClose = document.querySelector("#mobile-menu-close")
     mobileMenuButton.addEventListener('click', function(){
         mobileMenu.classList.remove("hidden")
+        header.classList.add("header-popup-active")
+        body.classList.add("body-active-pop-up")
     })
 
     mobileMenuClose.addEventListener('click', function(){
         mobileMenu.classList.add("hidden")
+        header.classList.remove("header-popup-active")
+        body.classList.remove("body-active-pop-up")
     })
 
     
@@ -22,16 +27,16 @@ function loginPopUp(){
     const loginButton = document.querySelector(".log-in-button")
     const mobileLoginButton = document.querySelector("#mobile-login-button")
     const loginClose = document.querySelector("#login-popup-close")
-    const mobileCloseButton = document.querySelector("#mobile-menu-close")
+    // const mobileCloseButton = document.querySelector("#mobile-menu-close")
     const mobileMenu = document.querySelector(".mobile-menu")
 
     loginButton.addEventListener('click', function(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
-        header.classList.add("header-popup-active")
         body.classList.add("body-active-pop-up")
     })
+
     mobileLoginButton.addEventListener('click', function(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
@@ -43,16 +48,15 @@ function loginPopUp(){
         loginPopup.classList.remove("shown")
         loginPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
-        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
-    })
-    mobileCloseButton.addEventListener('click', function(){
-        loginPopup.classList.remove("hidden")
-        loginPopup.classList.add("shown")
-        mobileMenu.classList.add("hidden")
         header.classList.remove("header-popup-active")
-        body.classList.remove("body-active-pop-up")
     })
+    // mobileCloseButton.addEventListener('click', function(){
+    //     loginPopup.classList.remove("hidden")
+    //     loginPopup.classList.add("shown")
+    //     mobileMenu.classList.add("hidden")
+    //     body.classList.remove("body-active-pop-up")
+    // })
 }
 
 function registrationPopUp(){
@@ -69,7 +73,6 @@ function registrationPopUp(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
-        header.classList.add("header-popup-active")
         body.classList.add("body-active-pop-up")
     })
 
@@ -77,15 +80,14 @@ function registrationPopUp(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
-        header.classList.add("header-popup-active")
         body.classList.add("body-active-pop-up")
+        header.classList.add("header-popup-active")
     })
 
     registrationClose.addEventListener('click', function(){
         registrationPopup.classList.remove("shown")
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
-        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
     })
 
@@ -93,8 +95,8 @@ function registrationPopUp(){
         registrationPopup.classList.remove("shown")
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
-        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
+        header.classList.remove("header-popup-active")
     })
 }
 
