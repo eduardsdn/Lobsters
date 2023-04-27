@@ -992,11 +992,17 @@
 }
 
 @media(max-width: 400px) {
+    .brands-wrapper {
+        align-items: center;
+    }
 
 
-    /* .brand__card {
-        max-width: 130px;
-    } */
+    .brands-cards {
+        grid-template-columns: 130px 130px;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
+    }
 
     .brand__card img {
         max-width: 90px;
