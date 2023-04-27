@@ -32,7 +32,9 @@ body {
     flex: 1;
 }
 
+
 /* ----- HEADER ----- */
+
 
 .header-menu-button {
     display: none;
@@ -126,6 +128,11 @@ body {
 }
 
 /* ----- HERO ----- */
+.hero-pop-up-displayed {
+    padding-top: 215px;
+}
+
+
 .hero {
     /* margin-top: 100px; */
     margin-bottom: 30px;

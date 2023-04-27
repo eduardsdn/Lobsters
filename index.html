@@ -41,7 +41,7 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero top-hero">
         <div class="_container">
             <div class="hero-wrapper">
 
@@ -811,6 +811,7 @@
 
    <script>
        function forgotPasswordPopUp() {
+            const hero = document.querySelector(".top-hero")
             const forgotPasswordPopUp = document.querySelector(".forgot-password-popup")
             const forgotPasswordButton = document.querySelector(".forgot-password")
             const forgotPasswordClose = document.querySelector("#forgot-password-popup-close")
@@ -832,7 +833,7 @@
                 forgotPasswordPopUp.classList.remove("shown")
                 header.classList.remove("header-popup-active")
                 body.classList.remove("body-active-pop-up")
-                
+                hero.classList.remove("hero-pop-up-displayed")
             })
 
             returnToLogin.addEventListener('click', function(){

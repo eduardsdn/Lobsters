@@ -344,7 +344,14 @@
         width: 80%;
     }
 
-    .contacts-us-popup
+    .contacts-us-popup-top h1 {
+        font-size: 18px;
+    }
+
+    .contacts-us-popup-buttons {
+        width: 100%;
+        max-width: 1000px;
+    } 
 
     .mobile-menu {
         width: 80%;
