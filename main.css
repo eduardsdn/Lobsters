@@ -1545,7 +1545,7 @@ iframe {
 
 
 .forgot-password-popup {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 463px;
