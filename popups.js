@@ -16,6 +16,7 @@ function mobileMenuPopUp(){
 }
 
 function loginPopUp(){
+    const header = document.querySelector(".header")
     const body = document.querySelector("body")
     const loginPopup = document.querySelector(".login-popup")
     const loginButton = document.querySelector(".log-in-button")
@@ -28,29 +29,34 @@ function loginPopUp(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        header.classList.add("header-popup-active")
         body.classList.add("body-active-pop-up")
     })
     mobileLoginButton.addEventListener('click', function(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        header.classList.add("header-popup-active")
     })
 
     loginClose.addEventListener('click', function(){
         loginPopup.classList.remove("shown")
         loginPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
+        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
     })
     mobileCloseButton.addEventListener('click', function(){
         loginPopup.classList.remove("hidden")
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
     })
 }
 
 function registrationPopUp(){
+    const header = document.querySelector(".header")
     const body = document.querySelector("body")
     const registrationPopup = document.querySelector(".registration-popup")
     const registrationButton = document.querySelector(".registration-button")
@@ -63,6 +69,7 @@ function registrationPopUp(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        header.classList.add("header-popup-active")
         body.classList.add("body-active-pop-up")
     })
 
@@ -70,6 +77,7 @@ function registrationPopUp(){
         registrationPopup.classList.remove("hidden")
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
+        header.classList.add("header-popup-active")
         body.classList.add("body-active-pop-up")
     })
 
@@ -77,6 +85,7 @@ function registrationPopUp(){
         registrationPopup.classList.remove("shown")
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
+        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
     })
 
@@ -84,6 +93,7 @@ function registrationPopUp(){
         registrationPopup.classList.remove("shown")
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
+        header.classList.remove("header-popup-active")
         body.classList.remove("body-active-pop-up")
     })
 }
