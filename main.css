@@ -964,9 +964,20 @@ iframe {
     position: relative;
     border: 1px solid #C9C9C9;
     border-radius: 100px;
-
-    
 }
+
+.close:hover {
+    background-color: #E30029;
+}
+
+.close:hover:after {
+    border-color: #FFFFFF;
+}
+
+.close:hover:before {
+    border-color: #FFFFFF;
+}
+
 .close:after {
     content: '';
     height: 15px;
