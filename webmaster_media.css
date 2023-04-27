@@ -7,6 +7,7 @@
     /* HEADER */
     .header {
         margin-bottom: 100px;
+        height: 56px;
     }
 
     
@@ -49,7 +50,7 @@
     }
 
     .lobsters-logo-link img {
-        min-width: 130px;
+        width: 130px;
     }
 
     .header-button {
@@ -428,6 +429,10 @@
     .footer-nav {
         gap: 24px;
     }
+
+    .footer-nav > img {
+        width: 123px;
+    }
 }
 
 
@@ -461,7 +466,7 @@
     }
 
     .lobsters-logo-link img {
-        max-width: 130px;
+        width: 130px;
     }
 
     .header-nav-links {
@@ -939,8 +944,8 @@
         gap:24px;
     }
 
-    .footer-nav img {
-        max-width: 109px;
+    .footer-nav > img {
+        width: 109px;
     }
 
     /* Login Pop Up */
