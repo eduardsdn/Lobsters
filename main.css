@@ -1159,6 +1159,11 @@ iframe {
     margin-bottom: 24px;
 }
 
+.sign-in-form-button:hover {
+    color: #F6F7F8;
+    background: rgba(227, 0, 41, 0.8);
+}
+
 .login-other-buttons {
     display: flex;
     flex-direction: column;
@@ -1366,6 +1371,11 @@ iframe {
     /* border: 1px solid #C9C9C9; */
     background-color: #E30029;
     border-radius: 100px;
+    color: #F6F7F8;
+}
+
+.registration-popup-submit-button:hover {
+    background: rgba(227, 0, 41, 0.8);
     color: #F6F7F8;
 }
 
