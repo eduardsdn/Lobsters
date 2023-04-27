@@ -50,7 +50,7 @@ body {
 .header-popup-active {
     display: none;
 }
-
+xv
 .sticky {
     position: fixed;
     top: 0;
@@ -976,7 +976,7 @@ iframe {
 }
 
 .close:hover:after {
-    border-radius: #FFFFFF;
+    border-color: #FFFFFF;
 }
 
 .close:hover:before {
