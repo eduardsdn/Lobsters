@@ -991,7 +991,7 @@
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 400px) {
     .brand__card img {
         max-width: 90px;
     }
@@ -999,5 +999,13 @@
     .brand__card {
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+
+    .platforms-icon p {
+        font-size: 10px;
+    }
+
+    .platforms-icon img {
+        width: 34px;
     }
 }
