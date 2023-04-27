@@ -820,9 +820,14 @@ iframe {
 
 /* ----- BOTTOM HERO ----- */
 
+
 #bottom-hero-content {
     margin-top: 100px;
     max-width: 597px;
+}
+
+#bottom-hero {
+    margin-bottom: 140px;
 }
 
 #bottom-hero-content h1 {
