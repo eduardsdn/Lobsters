@@ -1020,4 +1020,8 @@
     .platforms-icon img {
         width: 34px;
     }
+
+    .brands-link p {
+        font-size: 12px;
+    }
 }
