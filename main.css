@@ -147,6 +147,14 @@ body {
     position: relative;
 }
 
+.hero-link {
+    cursor: default;
+}
+
+.hero-link:hover {
+    text-decoration:underline;
+}
+
 
 
 

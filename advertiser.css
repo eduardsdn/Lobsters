@@ -761,3 +761,90 @@ body {
 .body-active-pop-up {
     overflow: hidden;
 }
+
+/* Contact us pop up */
+
+.contacts-us-popup {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 463px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .3);
+
+    max-height: 95vh;
+    overflow-y: scroll;
+}
+
+.registration-popup-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration-popup-top h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.contacts-us-popup::-webkit-scrollbar {
+    display: none;
+}
+
+.contacts-us-popup-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 128px;
+}
+
+.contacts-us-button {
+    font-weight: 600;
+    /* font-size: 1em; */
+    padding: 9px 24px 9px 24px;
+    border: 1px solid #C9C9C9;
+    border-radius: 100px;
+}
+
+
+.contacts-us-button:hover {
+    background-color: #E30029;
+}
+
+.contacts-us-button:hover a{
+    color: #F6F7F8;
+}
+
+.contacts-us-button a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.close:hover {
+    background-color: #E30029;
+}
+
+.close:hover:after {
+    border-color: #FFFFFF;
+}
+
+.close:hover:before {
+    border-color: #FFFFFF;
+}
+
+.hidden{
+    display: none;
+}

@@ -120,7 +120,24 @@ function registrationStatusList() {
     })
 }
 
+function contactUsPopUp() {
+    const contactUsButtons = document.querySelectorAll(".contact")
+    const contactUsPopUp = document.querySelector(".contacts-us-popup")
+    const registrationCloseButton = document.querySelector("#registration-popup-close")
 
+
+    for(let i = 0; i < contactUsButtons.length; i++){
+        contactUsButtons[i].addEventListener('click', function(){
+            contactUsPopUp.classList.remove("hidden")
+        })
+    }
+
+    registrationCloseButton.addEventListener('click', function(){
+        contactUsPopUp.classList.add("hidden")
+    })
+}
+
+contactUsPopUp()
 mobileMenuPopUp()
 loginPopUp()
 registrationPopUp()
