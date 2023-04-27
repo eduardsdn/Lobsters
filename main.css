@@ -29,6 +29,7 @@ body {
     max-width: 1232px;
     padding: 0 16px;
     margin: 0 auto;
+    flex: 1;
 }
 
 /* ----- HEADER ----- */
@@ -37,14 +38,12 @@ body {
     display: none;
 }
 .header {
-    /* position: fixed; */
-    padding-top: 16px;
-    padding-bottom: 16px;
     border-bottom: inherit;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.18);
     margin-bottom: 143px;
-    /* width: 100%; */
-    /* background-image: url("/assets/images/background_img.png"); */
+    height: 72px;
+    display: flex;
+    align-items: center;
 }
 
 .header-popup-active {
@@ -163,6 +162,10 @@ body {
     position: absolute;
     top: -40px;
     left: -40px;
+}
+
+.lobsters-logo-link img {
+    width: 168px;
 }
 
 .hero-content h1 {
@@ -874,6 +877,10 @@ iframe {
    display: flex;
    flex-direction: column;
    gap: 46px;
+}
+
+.footer-nav > img {
+    width: 168px;
 }
 
 .footer-columns-holder {
