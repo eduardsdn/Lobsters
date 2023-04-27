@@ -36,6 +36,7 @@ function loginPopUp(){
         loginPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
         body.classList.add("body-active-pop-up")
+        header.classList.add("header-popup-active")
     })
 
     mobileLoginButton.addEventListener('click', function(){
@@ -76,6 +77,7 @@ function registrationPopUp(){
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
         body.classList.add("body-active-pop-up")
+        header.classList.add("header-popup-active")
     })
 
     mobileRegistrationButton.addEventListener('click', function(){
@@ -83,6 +85,7 @@ function registrationPopUp(){
         registrationPopup.classList.add("shown")
         mobileMenu.classList.add("hidden")
         body.classList.add("body-active-pop-up")
+        header.classList.add("header-popup-active")
     })
 
     for(let i = 0; i < beginWorkButtons.length; i++) {
@@ -91,6 +94,7 @@ function registrationPopUp(){
             registrationPopup.classList.add("shown")
             mobileMenu.classList.add("hidden")
             body.classList.add("body-active-pop-up")
+            header.classList.add("header-popup-active")
         })
     }
 
@@ -100,6 +104,7 @@ function registrationPopUp(){
         registrationPopup.classList.add("hidden")
         mobileMenu.classList.add("hidden")
         body.classList.remove("body-active-pop-up")
+        header.classList.remove("header-popup-active")
     })
 
     mobileCloseButton.addEventListener('click', function(){
@@ -128,6 +133,7 @@ function registrationStatusList() {
 }
 
 function contactUsPopUp() {
+    const header = document.querySelector(".header")
     const contactUsButtons = document.querySelectorAll(".contact")
     const contactUsPopUp = document.querySelector(".contacts-us-popup")
     const registrationCloseButton = document.querySelector("#registration-popup-close")
@@ -136,11 +142,13 @@ function contactUsPopUp() {
     for(let i = 0; i < contactUsButtons.length; i++){
         contactUsButtons[i].addEventListener('click', function(){
             contactUsPopUp.classList.remove("hidden")
+            header.classList.add("header-popup-active")
         })
     }
 
     registrationCloseButton.addEventListener('click', function(){
         contactUsPopUp.classList.add("hidden")
+        header.classList.remove("header-popup-active")
     })
 }
 
