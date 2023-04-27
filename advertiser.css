@@ -770,6 +770,19 @@ body {
 }
 
 /* Contact us pop up */
+.registration-popup-close:hover {
+    background-color: #E30029;
+}
+
+.registration-popup-close:after:hover {
+    border-color: #FFFFFF;
+}
+
+.registration-popup-close:before:hover {
+    border-color: #FFFFFF;
+}
+
+
 
 .contacts-us-popup {
     display: flex;
