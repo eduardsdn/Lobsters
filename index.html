@@ -821,12 +821,15 @@
 
             forgotPasswordButton.addEventListener('click', function(){
                 forgotPasswordPopUp.classList.remove('hidden')
+                forgotPasswordPopUp.classList.add("shown")
                 loginPopup.classList.remove("shown")
                 loginPopup.classList.add("hidden")
+                header.classList.add("header-popup-active")
             })
 
             forgotPasswordClose.addEventListener('click', function(){
                 forgotPasswordPopUp.classList.add('hidden')
+                forgotPasswordPopUp.classList.remove("shown")
                 header.classList.remove("header-popup-active")
                 body.classList.remove("body-active-pop-up")
                 
@@ -834,6 +837,7 @@
 
             returnToLogin.addEventListener('click', function(){
                 forgotPasswordPopUp.classList.add('hidden')
+                forgotPasswordPopUp.classList.remove("shown")
                 loginPopup.classList.add("shown")
                 loginPopup.classList.remove("hidden")
             })
